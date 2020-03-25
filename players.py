@@ -4,5 +4,10 @@ class Player:
 		assert type(name) == str, 'TypeError'
 		self.name = name
 
+
 	def set_cards(self, cards):
 		self.cards = cards
+
+	def antoni_foo():
+		pass
+
