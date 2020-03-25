@@ -1,0 +1,33 @@
+class Player:
+	ime
+	carti
+
+	-set_cards()
+	-sort_cards()
+	-get_belot() - return a str with collor
+	-get_terca() - return a str (biggest card)
+	-get_quarter() - returns a str (biggest card)
+	-get_kvinta() - return a str (biggest card)
+	-get_kare() - return a str (card)
+	-get_announcements() - dict for self.announcements # if we don't have one, we return a []
+
+
+
+class Team:
+	init(ime,player1,player2)
+		self.point =[]
+
+	update_point() - updates the points after every round
+
+class Razdavach:
+	list of cards
+	shuffle_list_of_cards() - shuffle the list of cards
+	set_type_of_game() - choose the type of this game
+
+class Round:
+	-team1_points 
+	-Team 2
+	-give_cards() - give list of cards to all players
+	-get_type_of_game() - 
+	#to be continued
+
