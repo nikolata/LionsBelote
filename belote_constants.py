@@ -8,3 +8,4 @@ BELOTE_ALL_CARDS = ['7s', '7d', '7h', '7c',\
                     'Qs', 'Qd', 'Qh', 'Qc',
                     'Ks', 'Kd', 'Kh', 'Kc',
                     'As', 'Ad', 'Ah', 'Ac']
+BELOTE_ALL_TYPES_OF_GAME = ['s', 'd', 'h', 'c','nt','at']
