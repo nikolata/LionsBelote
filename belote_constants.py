@@ -14,3 +14,5 @@ BELOTE_TIERCE_STRING = 'tierce'
 BELOTE_QUARTE_STRING = 'quarte'
 BELOTE_QUINTA_STRING = 'quinta'
 BELOTE_CARRE_STRING = 'carre'
+BELOTE_ALL_TYPES_OF_GAME = ['s', 'd', 'h', 'c','nt','at']
+
