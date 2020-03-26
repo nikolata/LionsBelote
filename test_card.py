@@ -78,5 +78,87 @@ class TestFromString(unittest.TestCase):
 		self.assertEqual(expected_value, card.value)
 		self.assertEqual(expected_color, card.color)
 
+class TestGetPosition(unittest.TestCase):
+	def test_wtih_given_card_should_return_correct_position(self):
+		card = Card('10', 's')
+
+		result = card.get_position()
+		expected = 3
+
+		self.assertEqual(expected, result)
+
+class TestEqDunder(unittest.TestCase):
+	def test_with_cards_with_non_equal_value_and_non_equal_color_should_return_false(self):
+		card_lhs = Card('J', 'd')
+		card_rhs = Card('7', 's')
+
+		result = card_lhs == card_rhs
+
+		self.assertEqual(False, result)
+
+	def test_with_cards_with_equal_value_and_non_equal_color_should_return_false(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('10', 's')
+
+		result = card_lhs == card_rhs
+
+		self.assertEqual(False, result)
+
+	def test_with_cards_with_non_equal_value_and_equal_color_should_return_false(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('7', 'd')
+
+		result = card_lhs == card_rhs
+
+		self.assertEqual(False, result)
+
+	def test_with_cards_with_equal_value_and_equal_color_should_return_true(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('10', 'd')
+
+		result = card_lhs == card_rhs
+
+		self.assertEqual(True, result)
+
+class TestLtDunder(unittest.TestCase):
+	def test_with_equal_cards_should_return_false(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('10', 'd')
+
+		result = card_lhs < card_rhs
+
+		self.assertEqual(False, result)
+
+
+	def test_with_cards_with_non_equal_value_and_non_equal_color_should_return_correct_value(self):
+		card_lhs = Card('J', 'd')
+		card_rhs = Card('7', 's')
+
+		result_one = card_lhs < card_rhs
+		result_two = card_rhs < card_lhs
+
+		self.assertEqual(False, result_one)
+		self.assertEqual(True, result_two)
+
+	def test_with_cards_with_equal_value_and_non_equal_color_should_return_correct_value(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('10', 's')
+
+		result_one = card_lhs < card_rhs
+		result_two = card_rhs < card_lhs
+
+		self.assertEqual(False, result_one)
+		self.assertEqual(True, result_two)
+
+	def test_with_cards_with_non_equal_value_and_equal_color_should_return_correct_value(self):
+		card_lhs = Card('10', 'd')
+		card_rhs = Card('7', 'd')
+
+		result_one = card_lhs < card_rhs
+		result_two = card_rhs < card_lhs
+
+		self.assertEqual(False, result_one)
+		self.assertEqual(True, result_two)
+
 if __name__ == '__main__':
 	unittest.main()
