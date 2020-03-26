@@ -25,9 +25,25 @@ class Razdavach:
 	set_type_of_game() - choose the type of this game
 
 class Round:
-	-team1_points 
-	-Team 2
+	-team_1
+	-Team_2
+	-order - pazi igracha, koito e nared
 	-give_cards() - give list of cards to all players
-	-get_type_of_game() - 
+	-get_type_of_game() 
+	-check_if_anouncements_are_valide() - check if our anouncements are valide for this type of game
+	-add_points_to_teams()
+
 	#to be continued
 
+class Game:
+	- After each round, the first player from the last round becomes last:
+	- When a game is won by a team, a random player from this team starts the first round of the next game.
+	- Take points
+	- save round to results.txt 
+
+main()
+	while team1_games!=2 and team2_games!=2: 
+		if team.point>=150:
+			team1_games +=1
+
+		
