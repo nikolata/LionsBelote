@@ -2,7 +2,6 @@ from belote_constants import *
 from card import Card
 
 class Player:
-
 	# {'belot':['s','d'],'terca':['K']}
 
 	def __init__(self,*,name):
@@ -149,8 +148,3 @@ class Player:
 			if el != BELOTE_BELOTE_STRING:
 				self.announcements[el] = sorted(self.announcements[el], key=lambda c:Player.modify_card_value(c), reverse = True)		
 		
-
-
-
-	
-
