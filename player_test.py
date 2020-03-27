@@ -175,7 +175,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()
 
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_TIERCE_STRING : [Card('K', 's')]}
 
@@ -187,7 +187,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_TIERCE_STRING : [Card('9', 's'), Card('A', 's')]}
 
@@ -199,7 +199,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_TIERCE_STRING : [Card('A', 's'), Card('A', 'h')]}
 
@@ -212,7 +212,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_QUARTE_STRING : [Card('A', 'h')]}
 
@@ -224,7 +224,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_TIERCE_STRING : [Card('9', 'h')],
 					BELOTE_QUARTE_STRING : [Card('A', 'h')]}
@@ -237,7 +237,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_TIERCE_STRING : [Card('Q', 'c')],
 					BELOTE_QUARTE_STRING : [Card('10', 'h')]}
@@ -250,7 +250,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_QUARTE_STRING : [Card('K', 's'), Card('K', 'h')]}
 
@@ -262,7 +262,7 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_QUINTA_STRING : [Card('K', 'h')]}
 
@@ -274,13 +274,123 @@ class TestPlayer(unittest.TestCase):
 		player.set_cards(cards)
 		player.sort_cards()	
 		
-		player.set_sequences_in_announcements()
+		player.set_all_sequences_in_announcements()
 
 		expected = {BELOTE_QUINTA_STRING : [Card('K', 'h')],
 					BELOTE_TIERCE_STRING: [Card('Q', 'c')]}
 
 		self.assertEqual(expected, player.announcements)
 
+
+	#sort_colors_in_hand_by_length
+	def test_with_given_one_element_color_should_sort_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('Q', 'h'), Card('10', 'c'), Card('7', 's'), Card('7', 'h'), Card('10', 'h'), Card('J', 'c'), Card('7', 'c'), Card('7', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		result = player.sort_colors_in_hand_by_length()
+
+		expected = [[Card('7', 's')], [Card('7', 'd')], [Card('7', 'h'), Card('10', 'h'), Card('Q', 'h')], [Card('7', 'c'), Card('10', 'c'), Card('J', 'c')]]
+
+		self.assertEqual(expected, result)
+
+	def test_with_given_colors_with_more_than_one_element_should_sort_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('10', 'c'), Card('J', 's'), Card('7', 'c'), Card('9', 's'), Card('8', 'c'), Card('9', 'c'), Card('J', 'c'), Card('Q', 's')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		result = player.sort_colors_in_hand_by_length()
+
+		expected = [[Card('9', 's') ,Card('J', 's'), Card('Q', 's')], [Card('7', 'c'), Card('8', 'c'), Card('9', 'c'), Card('10', 'c'), Card('J', 'c')]]
+
+		self.assertEqual(expected, result)
+
+	def test_with_given_cards_of_one_color_should_sort_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('10', 'c'), Card('J', 'c'), Card('7', 'c'), Card('9', 'c'), Card('8', 'c'), Card('Q', 'c'), Card('K', 'c'), Card('A', 'c')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		result = player.sort_colors_in_hand_by_length()
+
+		expected = [[Card('7', 'c') ,Card('8', 'c'), Card('9', 'c'), Card('10', 'c'), Card('J', 'c'), Card('Q', 'c'), Card('K', 'c'), Card('A', 'c')]]
+
+		self.assertEqual(expected, result)
+
+	#set_all_carres_in_announcements
+	def test_with_given_carre_of_7s_should_do_nothing(self):
+		player = Player(name='Player')
+		cards = [Card('Q', 'h'), Card('10', 'c'), Card('7', 's'), Card('7', 'h'), Card('10', 'h'), Card('J', 'c'), Card('7', 'c'), Card('7', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {}
+
+		self.assertEqual(expected, player.announcements)
+
+	def test_with_given_carre_of_8s_should_do_nothing(self):
+		player = Player(name='Player')
+		cards = [Card('Q', 'h'), Card('10', 'c'), Card('8', 's'), Card('8', 'h'), Card('10', 'h'), Card('J', 'c'), Card('8', 'c'), Card('8', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {}
+
+		self.assertEqual(expected, player.announcements)
+
+	def test_with_given_cards_of_not_every_color_color_should_do_nothing(self):
+		player = Player(name='Player')
+		cards = [Card('10', 'c'), Card('J', 'c'), Card('7', 's'), Card('9', 'd'), Card('8', 'c'), Card('Q', 'c'), Card('K', 'c'), Card('A', 'c')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {}
+
+		self.assertEqual(expected, player.announcements)
+
+	def test_with_given_valid_carre_should_set_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('Q', 'h'), Card('10', 'c'), Card('9', 's'), Card('9', 'h'), Card('10', 'h'), Card('J', 'c'), Card('9', 'c'), Card('9', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {BELOTE_CARRE_STRING : [Card('9', 's')]}
+
+		self.assertEqual(expected, player.announcements)
+
+	def test_with_given_valid_carre_and_invalid_carre_of_8s_should_set_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('8', 'h'), Card('8', 'c'), Card('9', 's'), Card('9', 'h'), Card('8', 'd'), Card('8', 's'), Card('9', 'c'), Card('9', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {BELOTE_CARRE_STRING : [Card('9', 's')]}
+
+		self.assertEqual(expected, player.announcements)
+
+	def test_with_given_2_valid_carres_should_set_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('J', 'h'), Card('J', 'c'), Card('9', 's'), Card('9', 'h'), Card('J', 'd'), Card('J', 's'), Card('9', 'c'), Card('9', 'd')]
+		player.set_cards(cards)
+		player.sort_cards()	
+
+		player.set_all_carres_in_announcements()
+
+		expected = {BELOTE_CARRE_STRING : [Card('9', 's'), Card('J', 's')]}
+
+		self.assertEqual(expected, player.announcements)
 
 
 	# def test_with_given_hand_should_set_sequences_in_announcements(self):

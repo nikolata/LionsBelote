@@ -15,4 +15,4 @@ BELOTE_QUARTE_STRING = 'quarte'
 BELOTE_QUINTA_STRING = 'quinta'
 BELOTE_CARRE_STRING = 'carre'
 BELOTE_ALL_TYPES_OF_GAME = ['s', 'd', 'h', 'c','nt','at']
-
+BELOTE_7S_AND_8S_POSITIONS = [0, 1, 8, 9, 16, 17, 24, 25]
