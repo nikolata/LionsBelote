@@ -11,6 +11,10 @@ class Player:
 		self.cards = []
 		self.announcements = {}
 
+
+	def __repr__(self):
+		return self.name
+
 	def set_cards(self, cards):
 		self.cards = cards
 
@@ -26,10 +30,15 @@ class Player:
 				belotes.append(queen.color)
 		return belotes
 
-	def arrange_hand_by_color(self):
+	def arrange_hand_by_color(self, cards=None):
 		arranged_cards = []
 		current_color = []
-		for card in self.cards:
+		cards_to_arrange = []
+		if cards == None:
+			cards_to_arrange = self.cards
+		else:
+			cards_to_arrange = cards
+		for card in cards_to_arrange:
 			if current_color == []:
 				current_color.append(card)
 			elif card.color != current_color[0].color:
@@ -45,7 +54,8 @@ class Player:
 
 	def set_belotes_in_announcements(self):
 		belotes = self.get_belotes()
-		self.announcements[BELOTE_BELOTE_STRING] = belotes
+		if belotes != []:
+			self.announcements[BELOTE_BELOTE_STRING] = belotes
 
 	def set_given_announcement_in_announcements(self, announcement, card):
 		if announcement not in self.announcements.keys():
@@ -55,7 +65,9 @@ class Player:
 
 
 	def set_all_sequences_in_announcements(self):
-		hand = self.arrange_hand_by_color()
+		cards_in_carres = [Card.from_string(BELOTE_ALL_CARDS[pos]) for pos in self.find_carre_positions()]
+		cards_to_chech_for_sequence = [card for card in self.cards if card not in cards_in_carres]
+		hand = self.arrange_hand_by_color(cards_to_chech_for_sequence)
 		for color in hand:
 			sequence_length = 1
 			last_position = color[0].get_position()
@@ -74,6 +86,7 @@ class Player:
 						self.set_given_announcement_in_announcements(BELOTE_QUINTA_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
 					sequence_length = 1
 				last_position = current_card.get_position()
+				
 
 			if sequence_length == 3:
 				self.set_given_announcement_in_announcements(BELOTE_TIERCE_STRING, current_card)
@@ -91,11 +104,11 @@ class Player:
 			elements_to_check = colors_by_len[0]
 			for el in elements_to_check:
 				is_carre = True
-				pos = el.get_position()
+				pos = Card(el.value, 's').get_position()
 				if pos not in BELOTE_7S_AND_8S_POSITIONS:
-					for i in range(1,len(colors_by_len)):
+					for i in range(1,4):
 						card_to_check = Card.from_string(BELOTE_ALL_CARDS[pos+8])
-						if card_to_check not in colors_by_len[i]:
+						if card_to_check not in self.cards:
 							is_carre = False
 							break
 						pos+=8
@@ -103,14 +116,40 @@ class Player:
 						self.set_given_announcement_in_announcements(BELOTE_CARRE_STRING, el)
 
 
+	#use this function only if you have already set carres in announcements!!!
+	def find_carre_positions(self):
+		postions = []
+		if BELOTE_CARRE_STRING in self.announcements:
+			for card in self.announcements[BELOTE_CARRE_STRING]:
+				current_position = Card(card.value, 's').get_position()
+				postions += [current_position, current_position + 8, current_position + 16, current_position + 24]
+		return sorted(postions)
+
+	def modify_card_value(card):
+		if card.value == 'J':
+			return 11
+		if card.value == 'Q':
+			return 12
+		if card.value == 'K':
+			return 13
+		if card.value == 'A':
+			return 14
+		else:
+			return int(card.value)
+
 
 	def set_announcements(self):
 		self.set_belotes_in_announcements()
-		self.set_all_sequences_in_announcements()
+		#the order needs to be this, otherwise it would not work for hand:
+		#carre and sequentive cards containing cards from the carre
 		self.set_all_carres_in_announcements()
+		self.set_all_sequences_in_announcements()
+
 		for el in self.announcements:
-			self.announcements[el] = sorted(self.announcements[el], key=lambda c:c.get_position(), reverse = True)		
+			if el != BELOTE_BELOTE_STRING:
+				self.announcements[el] = sorted(self.announcements[el], key=lambda c:Player.modify_card_value(c), reverse = True)		
 		
+
 
 
 	
