@@ -47,14 +47,14 @@ class Player:
 		belotes = self.get_belotes()
 		self.announcements[BELOTE_BELOTE_STRING] = belotes
 
-	def set_given_sequence_in_announcements(self, sequence, card):
-		if sequence not in self.announcements.keys():
-			self.announcements[sequence] = [card]
+	def set_given_announcement_in_announcements(self, announcement, card):
+		if announcement not in self.announcements.keys():
+			self.announcements[announcement] = [card]
 		else:
-			self.announcements[sequence].append(card)
+			self.announcements[announcement].append(card)
 
 
-	def set_sequences_in_announcements(self):
+	def set_all_sequences_in_announcements(self):
 		hand = self.arrange_hand_by_color()
 		for color in hand:
 			sequence_length = 1
@@ -67,27 +67,49 @@ class Player:
 					sequence_length += 1
 				else:
 					if sequence_length == 3:
-						self.set_given_sequence_in_announcements(BELOTE_TIERCE_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
+						self.set_given_announcement_in_announcements(BELOTE_TIERCE_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
 					if sequence_length == 4:
-						self.set_given_sequence_in_announcements(BELOTE_QUARTE_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
+						self.set_given_announcement_in_announcements(BELOTE_QUARTE_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
 					if sequence_length > 4:
-						self.set_given_sequence_in_announcements(BELOTE_QUINTA_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
+						self.set_given_announcement_in_announcements(BELOTE_QUINTA_STRING, Card.from_string(BELOTE_ALL_CARDS[last_position]))
 					sequence_length = 1
 				last_position = current_card.get_position()
 
 			if sequence_length == 3:
-				self.set_given_sequence_in_announcements(BELOTE_TIERCE_STRING, current_card)
+				self.set_given_announcement_in_announcements(BELOTE_TIERCE_STRING, current_card)
 			if sequence_length == 4:
-				self.set_given_sequence_in_announcements(BELOTE_QUARTE_STRING, current_card)
+				self.set_given_announcement_in_announcements(BELOTE_QUARTE_STRING, current_card)
 			if sequence_length > 4:
-				self.set_given_sequence_in_announcements(BELOTE_QUINTA_STRING, current_card)
+				self.set_given_announcement_in_announcements(BELOTE_QUINTA_STRING, current_card)
+
+	def sort_colors_in_hand_by_length(self):
+		return sorted(self.arrange_hand_by_color(), key=lambda c:len(c))
+		
+	def set_all_carres_in_announcements(self):
+		colors_by_len = self.sort_colors_in_hand_by_length()
+		if len(colors_by_len) == 4:
+			elements_to_check = colors_by_len[0]
+			for el in elements_to_check:
+				is_carre = True
+				pos = el.get_position()
+				if pos not in BELOTE_7S_AND_8S_POSITIONS:
+					for i in range(1,len(colors_by_len)):
+						card_to_check = Card.from_string(BELOTE_ALL_CARDS[pos+8])
+						if card_to_check not in colors_by_len[i]:
+							is_carre = False
+							break
+						pos+=8
+					if is_carre:
+						self.set_given_announcement_in_announcements(BELOTE_CARRE_STRING, el)
+
 
 
 	def set_announcements(self):
 		self.set_belotes_in_announcements()
-		self.set_sequences_in_announcements()
+		self.set_all_sequences_in_announcements()
+		self.set_all_carres_in_announcements()
 		for el in self.announcements:
-			self.announcements[el] = sorted(self.announcements[el], key=lambda r:r.get_position(), reverse = True)		
+			self.announcements[el] = sorted(self.announcements[el], key=lambda c:c.get_position(), reverse = True)		
 		
 
 
