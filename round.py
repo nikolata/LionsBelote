@@ -1,4 +1,5 @@
-from croupier import shuffle_list_of_cards
+from croupier import shuffle_list_of_cards, set_type_of_game
+from belote_constants import *
 
 
 class Round:
@@ -23,15 +24,43 @@ class Round:
 
 
     def give_cards(self):
-        deck = shuffle_list_of_cards()
+        # self.trumps = set_type_of_game()
 
-        start = 0
-        end = 8
+        if self.trumps != 'nt':
 
-        for player in self.order:
-            player.set_cards(deck[start:end])
-            start += 8
-            end += 8
+            deck = shuffle_list_of_cards()
 
-            player.sort_cards()
-            player.set_announcements()
+            start = 0
+            end = 8
+
+            for player in self.order:
+                player.set_cards(deck[start:end])
+                start += 8
+                end += 8
+
+                player.sort_cards()
+                # player.set_announcements()
+
+                # self.check_announcements(player)
+
+        # else:
+        #     add_points(0)
+
+
+    def check_announcements(self, player):
+        # if self.trumps != 
+        self.check_belote(player)
+
+
+    def check_belote(self, player):
+        if self.trumps == 'at':
+            for i in range(len(player.announcements[BELOTE_BELOTE_STRING]) - 1):
+                player.announcements[BELOTE_BELOTE_STRING].pop()
+        else:
+            for belote in player.announcements[BELOTE_BELOTE_STRING]:
+                if belote != self.trumps:
+                    player.announcements[BELOTE_BELOTE_STRING].remove(belote)
+
+
+    # def set_trumps(self, trumps):
+    #     self.trumps = trumps
