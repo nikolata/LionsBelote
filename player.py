@@ -6,6 +6,8 @@ class Player:
 		assert type(name) == str, 'TypeError'
 		self.name = name
 		self.cards = []
+		self.announced = []
+		self.points = 0
 		self.announcements = {}
 
 	def __repr__(self):
@@ -157,4 +159,13 @@ class Player:
 	def erase_tierce_announcements(self):
 		if BELOTE_TIERCE_STRING in self.announcements:
 			del self.announcements[BELOTE_TIERCE_STRING]
+
+
+	def set_dict(self):
+		self.dict = {
+			"cards": self.cards,
+			"announcements": self.announced,
+			"points": self.points
+		}
+		return self.dict
 		

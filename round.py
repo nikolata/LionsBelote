@@ -3,7 +3,8 @@ from belote_constants import *
 
 
 class Round:
-    def __init__(self, t1, t2):
+    def __init__(self, number, t1, t2):
+        self.number = number
         self.team1 = t1
         self.team2 = t2
         self.order = [self.team1.player1, self.team2.player1,\
@@ -14,15 +15,12 @@ class Round:
         self.quarte = {}
         self.quinte = {}
 
-        # self.dict = {
-        #     self.team1.name: {
-        #         self.team1.player1.name: {
-        #             "cards": None,
-        #             "announcements": None,
-        #             "points": None
-        #         }
-        #     }
-        # }
+
+    def set_dict(self):
+        self.dict = {
+            self.team1.name: self.team1.set_dict(),
+            self.team2.name: self.team2.set_dict()
+        }
 
 # "Mecheta": {
 #     "Marto": {

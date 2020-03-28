@@ -859,7 +859,7 @@ class TestPlayer(unittest.TestCase):
 			
 		expected = {BELOTE_CARRE_STRING : [Card('J', 's'), Card('9', 's')]} 
 
-		self.assertEqual(expected, player.announcements)    
+		self.assertEqual(expected, player.announcements)  
 
 
 if __name__ == '__main__':

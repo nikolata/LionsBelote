@@ -27,5 +27,9 @@ class Team:
 
 
     def set_dict(self):
-        pass
+        self.dict = {
+            self.player1.name: self.player1.set_dict(),
+            self.player2.name: self.player2.set_dict()
+        }
+        return self.dict
 
