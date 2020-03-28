@@ -24,14 +24,25 @@ class Card:
 		self.color = color
 
 	
-	def get_position(self):
-		string_card = self.value+self.color
-		return BELOTE_ALL_CARDS.index(string_card)
+	def get_position(self, by_color=True):
+		if by_color:
+			string_card = self.value+self.color
+			return BELOTE_ALL_CARDS.index(string_card)
+		else:
+			return 	BELOTE_ALL_CARD_VALUES.index(self.value)
+
+
+	def less_than(self, other):
+		return self.get_position(False) < other.get_position(False)
 
 	def __eq__(self, other):
+		if other == 0:
+			return False
 		return self.__dict__ == other.__dict__
 
 	def __lt__(self, other):
+		if other == 0:
+			return False
 		return self.get_position() < other.get_position()
 
 	def __repr__(self):

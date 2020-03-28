@@ -8,6 +8,55 @@ class Round:
         self.team2 = t2
         self.order = [self.team1.player1, self.team2.player1,\
          self.team1.player2, self.team2.player2]
+        self.team1.set_dict()
+        self.team2.set_dict()
+        self.tierce = {}
+        self.quarte = {}
+        self.quinte = {}
+
+        # self.dict = {
+        #     self.team1.name: {
+        #         self.team1.player1.name: {
+        #             "cards": None,
+        #             "announcements": None,
+        #             "points": None
+        #         }
+        #     }
+        # }
+
+# "Mecheta": {
+#     "Marto": {
+#         "cards:": ["7s", "8s", "9s", "10c", "Jd", "Qd", "Kh", "As"],
+#         "announcements": ["tierce"],
+#         "points": 20
+#     },
+#     "Rado": {
+#         "cards:": ["7d", "8c", "9d", "10d", "Js", "Qs", "Kd", "Ac"],
+#         "announcements": [],
+#         "points": 0
+#     }
+# },
+# "Koteta": {
+#     "Gosho": {
+#         "cards:": ["7c", "8d", "9c", "10s", "Jh", "Qc", "Kc", "Ad"],
+#         "announcements": [],
+#         "points": 0
+#     },
+#     "Pesho": {
+#         "cards:": ["7h", "8h", "9h", "10h", "Jc", "Qh", "Ks", "Ah"],
+#         "announcements": ["quarte"],
+#         "points": 50
+#     }
+# }
+
+    def play(self, player=None):
+        self.set_order(player)
+        self.set_trumps()
+        self.give_cards()
+        for _ in range(4):
+            pass
+
+        # save_round_to_txt
 
 
     def set_order(self, player=None):
@@ -37,17 +86,17 @@ class Round:
                 start += 8
                 end += 8
 
+                # print(player, ' : ', player.cards)
+                # print('deck: ', deck)
+
                 player.sort_cards()
                 player.set_announcements()
 
-                self.check_announcements(player)
+                if BELOTE_BELOTE_STRING in player.announcements:
+                    self.check_belote(player)
 
         # else:
         #     add_points(0)
-
-
-    def check_announcements(self, player):
-        self.check_belote(player)
 
 
     def check_belote(self, player):
@@ -62,5 +111,15 @@ class Round:
                     player_belote_announcements.remove(belote)
 
 
-    def set_trumps(self, trumps):
+    def check_tierce(self):
+        self.team1.get_max_tierce()
+        self.team2.get_max_tierce()
+        if self.team2.highest_tierce and self.team1.highest_tierce:
+            if self.team2.highest_tierce.less_than(self.team1.highest_tierce):
+                self.team2.erase_tierce_announcements()
+            elif self.team1.highest_tierce.less_than(self.team2.highest_tierce):
+                self.team1.erase_tierce_announcements()
+
+
+    def set_trumps(self):
         self.trumps = set_type_of_game()

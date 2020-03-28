@@ -146,5 +146,18 @@ class Player:
 
 		for el in self.announcements:
 			if el != BELOTE_BELOTE_STRING:
-				self.announcements[el] = sorted(self.announcements[el], key=lambda c:Player.modify_card_value(c), reverse = True)		
+				self.announcements[el] = sorted(self.announcements[el], key=lambda c:Player.modify_card_value(c), reverse = True)
+
+
+	def get_max_tierce(self):
+		if BELOTE_TIERCE_STRING in self.announcements:
+			self.highest_tierce = max(self.announcements[BELOTE_TIERCE_STRING])
+		else:
+			self.highest_tierce = 0
+
+
+	def erase_tierce_announcements(self):
+		if BELOTE_TIERCE_STRING in self.announcements:
+			del self.announcements[BELOTE_TIERCE_STRING]
+
 		
