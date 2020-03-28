@@ -24,7 +24,6 @@ class Round:
 
 
     def give_cards(self):
-        # self.trumps = set_type_of_game()
 
         if self.trumps != 'nt':
 
@@ -39,16 +38,15 @@ class Round:
                 end += 8
 
                 player.sort_cards()
-                # player.set_announcements()
+                player.set_announcements()
 
-                # self.check_announcements(player)
+                self.check_announcements(player)
 
         # else:
         #     add_points(0)
 
 
     def check_announcements(self, player):
-        # if self.trumps != 
         self.check_belote(player)
 
 
@@ -62,5 +60,5 @@ class Round:
                     player.announcements[BELOTE_BELOTE_STRING].remove(belote)
 
 
-    # def set_trumps(self, trumps):
-    #     self.trumps = trumps
+    def set_trumps(self, trumps):
+        self.trumps = set_type_of_game()
