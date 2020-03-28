@@ -166,17 +166,17 @@ class TestPlayer(unittest.TestCase):
 		self.assertEqual(expected, player.announcements[BELOTE_BELOTE_STRING])
 
 	# #set_given_sequence
-	# def test_with_given_tierce_should_set_correctly(self):
-	# 	player = Player(name='Player')
-	# 	cards = [Card('K','s'), Card('7', 's') , Card('Q', 's'), Card('J', 's'), Card('9' ,'s'), Card('Q', 'd'), Card('10', 'c'), Card('K', 'h')]
-	# 	player.set_cards(cards)
-	# 	player.sort_cards()
+	def test_with_given_tierce_should_set_correctly(self):
+		player = Player(name='Player')
+		cards = [Card('K','s'), Card('7', 's') , Card('Q', 's'), Card('J', 's'), Card('9' ,'s'), Card('Q', 'd'), Card('10', 'c'), Card('K', 'h')]
+		player.set_cards(cards)
+		player.sort_cards()
 
-	# 	player.set__in_announcements()
+		player.set__in_announcements()
 
-	# 	expected = {BELOTE_TIERCE_STRING : [Card('K', 's')]}
+		expected = {BELOTE_TIERCE_STRING : [Card('K', 's')]}
 
-	# 	self.assertEqual(expected, player.announcements)
+		self.assertEqual(expected, player.announcements)
 
 
 	#set_sequences_in_announcements
@@ -331,18 +331,6 @@ class TestPlayer(unittest.TestCase):
 		self.assertEqual(expected, result)
 
 	#set_all_carres_in_announcements
-	def test_sorry_bro(self):
-		player = Player(name='Player')
-		player.set_cards(shuffle_list_of_cards()[:8])
-		player.sort_cards() 
-
-		player.set_all_carres_in_announcements()
-
-		expected = {}
-
-		self.assertEqual(expected, player.announcements)
-
-
 	def test_with_given_carre_of_7s_should_do_nothing(self):
 		player = Player(name='Player')
 		cards = [Card('Q', 'h'), Card('10', 'c'), Card('7', 's'), Card('7', 'h'), Card('10', 'h'), Card('J', 'c'), Card('7', 'c'), Card('7', 'd')]
