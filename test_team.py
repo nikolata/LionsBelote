@@ -34,7 +34,7 @@ class TestTeam(unittest.TestCase):
 
         t.add_points(20)
 
-        self.assertEqual(t.points, [20, 40])
+        self.assertEqual(t.points, [20, 20])
 
 
 if __name__ == '__main__':

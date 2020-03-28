@@ -8,6 +8,6 @@ class Team:
 
     def add_points(self, points):
         if self.points:
-            self.points.append(points+self.points[-1])
+            self.points.append(points)
         else:
             self.points = [points]
