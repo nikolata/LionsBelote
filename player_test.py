@@ -2,6 +2,7 @@ import unittest
 from belote_constants import *
 from player import Player
 from card import Card
+from croupier import shuffle_list_of_cards
 
 
 class TestPlayer(unittest.TestCase):
@@ -330,6 +331,18 @@ class TestPlayer(unittest.TestCase):
 		self.assertEqual(expected, result)
 
 	#set_all_carres_in_announcements
+	def test_sorry_bro(self):
+		player = Player(name='Player')
+		player.set_cards(shuffle_list_of_cards()[:8])
+		player.sort_cards() 
+
+		player.set_all_carres_in_announcements()
+
+		expected = {}
+
+		self.assertEqual(expected, player.announcements)
+
+
 	def test_with_given_carre_of_7s_should_do_nothing(self):
 		player = Player(name='Player')
 		cards = [Card('Q', 'h'), Card('10', 'c'), Card('7', 's'), Card('7', 'h'), Card('10', 'h'), Card('J', 'c'), Card('7', 'c'), Card('7', 'd')]
