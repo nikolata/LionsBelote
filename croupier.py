@@ -4,7 +4,7 @@ from card import Card
 
 
 def shuffle_list_of_cards():
-    shuffled_deck = BELOTE_ALL_CARDS
+    shuffled_deck = BELOTE_ALL_CARDS[::]
     random.shuffle(shuffled_deck)
     return [Card.from_string(card) for card in shuffled_deck]
 

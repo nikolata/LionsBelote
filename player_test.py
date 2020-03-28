@@ -335,7 +335,6 @@ class TestPlayer(unittest.TestCase):
         player = Player(name='Player')
         player.set_cards(shuffle_list_of_cards()[:8])
         player.sort_cards() 
-
         player.set_all_carres_in_announcements()
 
         expected = {}
