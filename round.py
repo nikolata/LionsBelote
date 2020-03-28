@@ -51,13 +51,15 @@ class Round:
 
 
     def check_belote(self, player):
+        player_belote_announcements = player.announcements[BELOTE_BELOTE_STRING]
+
         if self.trumps == 'at':
-            for i in range(len(player.announcements[BELOTE_BELOTE_STRING]) - 1):
-                player.announcements[BELOTE_BELOTE_STRING].pop()
+            for i in range(len(player_belote_announcements) - 1):
+                player_belote_announcements.pop()
         else:
-            for belote in player.announcements[BELOTE_BELOTE_STRING]:
+            for belote in player_belote_announcements:
                 if belote != self.trumps:
-                    player.announcements[BELOTE_BELOTE_STRING].remove(belote)
+                    player_belote_announcements.remove(belote)
 
 
     def set_trumps(self, trumps):
