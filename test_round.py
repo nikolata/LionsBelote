@@ -12,7 +12,7 @@ class TestRound(unittest.TestCase):
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
 
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
 
         self.assertIsNotNone(r)
 
@@ -21,7 +21,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
 
         r.set_order(p4)
 
@@ -32,7 +32,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
 
         r.set_order()
 
@@ -43,7 +43,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
 
         r.set_order(p4)
 
@@ -54,7 +54,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         r.set_order()
 
         r.next_order()
@@ -67,7 +67,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         r.set_order(p4)
 
         r.next_order()
@@ -79,7 +79,7 @@ class TestRound(unittest.TestCase):
     #     p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
     #      Player(name='ime3'), Player(name='ime4')
     #     t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-    #     r = Round(t1, t2)
+    #     r = Round(1, t1, t2)
     #     r.trumps = 'at'
 
     #     r.give_cards()
@@ -94,7 +94,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         r.trumps = 'nt'
 
         r.give_cards()
@@ -109,7 +109,7 @@ class TestRound(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         r.trumps = 'nt'
 
         r.play()
@@ -123,7 +123,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_BELOTE_STRING: ['h']}
         r.trumps = 'h'
 
@@ -136,7 +136,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_BELOTE_STRING: ['h']}
         r.trumps = 's'
 
@@ -149,7 +149,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_BELOTE_STRING: ['h', 's', 'c', 'd']}
         r.trumps = 'at'
 
@@ -162,7 +162,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_TIERCE_STRING: [Card('9', 's')]}
         p2.announcements = {BELOTE_TIERCE_STRING: [Card('Q', 's')]}
 
@@ -176,7 +176,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_TIERCE_STRING: [Card('9', 's')]}
         p2.announcements = {BELOTE_TIERCE_STRING: [Card('Q', 's')]}
         p3.announcements = {BELOTE_TIERCE_STRING: [Card('A', 's')]}
@@ -194,7 +194,7 @@ class TestRoundCheckAnnouncements(unittest.TestCase):
         p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
          Player(name='ime3'), Player(name='ime4')
         t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(t1, t2)
+        r = Round(1, t1, t2)
         p1.announcements = {BELOTE_TIERCE_STRING: [Card('9', 's')]}
         p2.announcements = {}
         p3.announcements = {}
