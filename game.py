@@ -7,6 +7,7 @@ class Game:
 		self.team2 = team2
 		self.team1_wins = 0
 		self.team2_wins = 0
+		self.round = 1
 		self.dict = {}
 	def play_round(self,last_winner = None):
 		if last_winner = team1:
