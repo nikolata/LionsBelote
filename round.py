@@ -14,12 +14,14 @@ class Round:
         self.tierce = {}
         self.quarte = {}
         self.quinte = {}
+        self.trumps = ''
 
 
     def set_dict(self):
         self.dict = {
             self.team1.name: self.team1.set_dict(),
-            self.team2.name: self.team2.set_dict()
+            self.team2.name: self.team2.set_dict(),
+            "trumps": self.trumps
         }
         return self.dict
 
@@ -52,11 +54,6 @@ class Round:
         self.set_order(player)
         self.set_trumps()
         self.give_cards()
-        for _ in range(4):
-            # self.on_turn - iterator
-            # self.check_tierce(self.on_turn)
-            # self.quarte()
-            self.next_order()
 
 
         # save_round_to_txt(parameters)
@@ -98,6 +95,8 @@ class Round:
                 if BELOTE_BELOTE_STRING in player.announcements:
                     self.check_belote(player)
 
+            # self.check_sequences()
+
         # else:
         #     add_points(0)
 
@@ -122,6 +121,13 @@ class Round:
                 self.team2.erase_tierce_announcements()
             elif self.team1.highest_tierce.less_than(self.team2.highest_tierce):
                 self.team1.erase_tierce_announcements()
+
+    def check_quare(self):
+        pass
+
+
+    def check_quinte(self):
+        pass
 
 
     def set_trumps(self):

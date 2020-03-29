@@ -7,6 +7,7 @@ class Game:
 		self.team2 = team2
 		self.team1_wins = 0
 		self.team2_wins = 0
+		self.dict = {}
 	def play_round(self,last_winner = None):
 		if last_winner = team1:
 			round.play(player = random.choice([team1.player1,team1.player1]))
@@ -15,3 +16,6 @@ class Game:
 		else:
 			round.play(player = team1.player1)
 
+
+	def set_dict(self, round):
+		self.dict.append(round.number: round.set_dict())
