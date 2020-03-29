@@ -21,6 +21,7 @@ class Round:
             self.team1.name: self.team1.set_dict(),
             self.team2.name: self.team2.set_dict()
         }
+        return self.dict
 
 # "Mecheta": {
 #     "Marto": {
@@ -52,9 +53,13 @@ class Round:
         self.set_trumps()
         self.give_cards()
         for _ in range(4):
-            pass
+            # self.on_turn - iterator
+            # self.check_tierce(self.on_turn)
+            # self.quarte()
+            self.next_order()
 
-        # save_round_to_txt
+
+        # save_round_to_txt(parameters)
 
 
     def set_order(self, player=None):
