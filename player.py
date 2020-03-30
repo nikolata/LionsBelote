@@ -170,7 +170,7 @@ class Player:
 
 	def set_points(self):
 		belote_pts = 20*len(self.announced[BELOTE_BELOTE_STRING]) 
-		tierce_pts = 30*len(self.announced[BELOTE_TIERCE_STRING])
+		tierce_pts = 20*len(self.announced[BELOTE_TIERCE_STRING])
 		quarte_pts = 50*len(self.announced[BELOTE_QUARTE_STRING]) 
 		quinta_pts = 100*len(self.announced[BELOTE_QUINTA_STRING]) 
 		carre_pts = 100*len(self.announced[BELOTE_CARRE_STRING])
@@ -180,29 +180,21 @@ class Player:
 		cards = []
 		for el in self.cards:
 			cards.append(str(el.value)+str(el.color))
-		belots = []
+		announcements = []
 		for el in self.announced[BELOTE_BELOTE_STRING]:
-			belots.append(el)
-		tierces = []
+			announcements.append(BELOTE_BELOTE_STRING)
 		for el in self.announced[BELOTE_TIERCE_STRING]:
-			tierces.append(str(el.value)+str(el.color))
-		quartes = []
+			announcements.append(BELOTE_TIERCE_STRING)
 		for el in self.announced[BELOTE_QUARTE_STRING]:
-			quartes.append(str(el.value)+str(el.color))
-		quintas = []
+			announcements.append(BELOTE_QUARTE_STRING)
 		for el in self.announced[BELOTE_QUINTA_STRING]:
-			quintas.append(str(el.value)+str(el.color))
-		carres = []
+			announcements.append(BELOTE_QUINTA_STRING)
 		for el in self.announced[BELOTE_CARRE_STRING]:
-			carres.append(str(el.value)+str(el.color))
-		announced = {BELOTE_BELOTE_STRING : belots,
-						  BELOTE_TIERCE_STRING : tierces,
-						  BELOTE_QUARTE_STRING : quartes , 
-						  BELOTE_QUINTA_STRING : quintas,
-						  BELOTE_CARRE_STRING : carres}
+			announcements.append(BELOTE_CARRE_STRING)
+		#announced = {'announcements' :announcements}
 		self.dict = {
 			"cards": cards,
-			"announcements": announced,
+			"announcements": announcements,
 			"points": self.points
 		}
 		return self.dict
@@ -216,14 +208,5 @@ class Player:
 						  BELOTE_CARRE_STRING : []}
 		self.points = 0
 
-if __name__ == '__main__':
-	pl = Player(name='name')
-	card_strings = ['10h', 'Qc', 'Ah', 'Ac', 'Jh', 'Kh', 'Kc', 'Qh']
-	cards = [Card.from_string(i) for i in card_strings]
-	pl.play_round(cards)
-	print(pl.biggest_sequence)
-
-
-	
 
 		

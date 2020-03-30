@@ -93,8 +93,6 @@ class Team:
     def set_points(self):
         self.player1.set_points()
         self.player2.set_points()
-        print('Tochkite za pl1: ', self.player1.points)
-        print('Tochkite za pl2: ',self.player2.points)
         self.add_points(self.player1.points + self.player2.points)
 
     def null_valid_announcements(self):

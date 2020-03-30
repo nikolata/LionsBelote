@@ -1,2613 +1,1995 @@
 {
     "game 1": {
         "round 1": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "10s",
-                        "Qs",
-                        "Qd",
-                        "Ad",
+                        "8d",
+                        "10d",
                         "9h",
                         "10h",
+                        "Qh",
                         "10c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "10d",
-                        "Ah",
-                        "7c",
-                        "8c",
-                        "9c",
                         "Jc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "As",
-                        "8d",
-                        "9d",
-                        "Jd",
-                        "Kd",
-                        "8h"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
                         "7s",
-                        "9s",
-                        "7d",
-                        "7h",
-                        "Jh",
-                        "Qh",
-                        "Kh",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "d"
-        },
-        "round 2": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "10s",
-                        "Js",
                         "Qs",
-                        "Ad",
-                        "8c",
-                        "10c",
-                        "Qc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
                         "7d",
-                        "8d",
-                        "9d",
+                        "Jd",
                         "Qd",
-                        "8h",
-                        "Qh",
-                        "7c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "9s",
-                        "Ks",
-                        "10d",
-                        "Jd",
-                        "7h",
-                        "10h",
+                        "Ad",
                         "Kh",
-                        "9c"
+                        "7c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "8s",
-                        "As",
-                        "Kd",
-                        "9h",
-                        "Jh",
-                        "Ah",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "s"
-        },
-        "round 3": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "Ks",
-                        "As",
-                        "8d",
-                        "7h",
-                        "8h",
-                        "Jh",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "10d",
-                        "Kd",
-                        "10h",
-                        "Kh",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "9s",
                         "10s",
-                        "Qs",
-                        "Jd",
-                        "9h",
+                        "Js",
+                        "Ks",
+                        "As",
+                        "7h",
+                        "Ah",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "9d",
+                        "Kd",
+                        "8h",
+                        "Jh",
                         "8c",
                         "9c",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "9d",
-                        "Qd",
-                        "Ad",
-                        "Qh",
-                        "Ah",
-                        "7c",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "at"
         },
-        "round 4": {
-            "m": {
-                "n": {
+        "round 2": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "8s",
                         "9s",
                         "Ks",
-                        "7d",
-                        "Qd",
+                        "9d",
                         "Kd",
-                        "9h",
-                        "10c"
+                        "Ad",
+                        "7h",
+                        "9c",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
-                        "10s",
+                        "8s",
                         "Qs",
-                        "10d",
-                        "Ad",
+                        "As",
+                        "Qd",
+                        "9h",
                         "10h",
                         "Jh",
-                        "Ah",
-                        "7c"
+                        "Kh"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "7s",
                         "Js",
                         "8d",
-                        "9d",
-                        "8h",
-                        "Qh",
+                        "Jd",
+                        "8c",
                         "Jc",
+                        "Qc",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
                     "cards": [
-                        "As",
-                        "Jd",
-                        "7h",
-                        "Kh",
-                        "8c",
-                        "9c",
+                        "10s",
+                        "7d",
+                        "10d",
+                        "8h",
+                        "Qh",
+                        "Ah",
+                        "7c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "at"
+        },
+        "round 3": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "8d",
+                        "Kd",
+                        "Ad",
+                        "Ah",
+                        "7c",
                         "Qc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "d"
-        },
-        "round 5": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "Ks",
-                        "Jd",
-                        "Qh",
-                        "Kh",
-                        "7c",
-                        "9c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
-                        "8s",
-                        "8d",
-                        "Kd",
-                        "8h",
+                        "As",
+                        "Jd",
+                        "Qd",
+                        "7h",
                         "Jh",
+                        "Qh",
                         "Jc",
-                        "Kc",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "10s",
+                        "8s",
                         "Js",
+                        "Qs",
                         "7d",
-                        "Qd",
-                        "7h",
+                        "9h",
                         "10h",
-                        "Ah",
+                        "8c",
                         "10c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
-                    "cards": [
-                        "9s",
-                        "Qs",
-                        "As",
-                        "9d",
-                        "10d",
-                        "Ad",
-                        "9h",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 6": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "Qs",
-                        "As",
-                        "10d",
-                        "10h",
-                        "Ah",
-                        "Jc",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "7d",
-                        "Ad",
-                        "9h",
-                        "Jh",
-                        "Qh",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "8d",
-                        "Kd",
-                        "7h",
-                        "8h",
-                        "9c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9s",
-                        "9d",
-                        "Jd",
-                        "Qd",
-                        "Kh",
-                        "8c",
-                        "Kc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 7": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "7d",
-                        "10d",
-                        "7h",
-                        "Ah",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
+                "rado": {
                     "cards": [
                         "9s",
                         "10s",
-                        "Qs",
-                        "Jd",
-                        "Ad",
-                        "10h",
-                        "10c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "9d",
-                        "Kd",
-                        "Jh",
-                        "Kh",
-                        "8c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "Qd",
-                        "8h",
-                        "9h",
-                        "Qh",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 8": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Qs",
                         "Ks",
-                        "10h",
-                        "Qh",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "Qd",
-                        "Kd",
-                        "Ad",
-                        "7h",
+                        "9d",
+                        "10d",
                         "8h",
-                        "Jh",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "Jd",
-                        "9h",
                         "Kh",
-                        "Ah",
-                        "10c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "9d",
-                        "10d",
-                        "7c",
-                        "8c",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 9": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "9s",
-                        "Js",
-                        "8d",
-                        "Ad",
-                        "7h",
-                        "Qh",
-                        "Ah",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "Qs",
-                        "7d",
-                        "9d",
-                        "10d",
-                        "Kd",
-                        "8h",
                         "9c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
-                    "cards": [
-                        "10s",
-                        "Ks",
-                        "As",
-                        "Qd",
-                        "10h",
-                        "Jh",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "Jd",
-                        "9h",
-                        "Kh",
-                        "7c",
-                        "8c",
-                        "Jc",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
+            "trumps": "s"
         },
-        "round 10": {
-            "m": {
-                "n": {
+        "round 4": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "Jd",
-                        "9h",
-                        "10h",
-                        "Jh",
-                        "Kh",
-                        "Ah",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7s",
-                        "8s",
-                        "10s",
-                        "As",
+                        "7d",
                         "8d",
                         "7h",
-                        "Qh",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "10d",
-                        "Qd",
-                        "Kd",
                         "8h",
-                        "7c",
-                        "9c",
-                        "Qc",
-                        "Ac"
+                        "Jh",
+                        "Kh",
+                        "8c",
+                        "10c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
+                    "cards": [
+                        "8s",
+                        "Qs",
+                        "Ks",
+                        "Jd",
+                        "Qd",
+                        "Kd",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "belote",
+                        "belote",
+                        "tierce"
+                    ],
+                    "points": 60
+                }
+            },
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "9s",
                         "Js",
+                        "As",
+                        "9h",
+                        "Qh",
+                        "7c",
+                        "9c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "10s",
+                        "9d",
+                        "10d",
+                        "Ad",
+                        "10h",
+                        "Ah",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "at"
+        },
+        "round 5": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "9s",
                         "Qs",
+                        "Jd",
+                        "Qd",
+                        "Ad",
+                        "7h",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "8d",
+                        "8h",
+                        "10h",
+                        "Ah",
+                        "7c",
+                        "8c",
+                        "10c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Js",
+                        "As",
+                        "10d",
+                        "Jh",
+                        "Qh",
+                        "Kh",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "10s",
                         "Ks",
                         "7d",
                         "9d",
-                        "Ad",
-                        "8c"
+                        "Kd",
+                        "9h",
+                        "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "nt"
         },
-        "round 11": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Ad",
-                        "9h",
-                        "Jh",
-                        "Jc",
-                        "Qc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "Qs",
-                        "Qd",
-                        "10h",
-                        "Qh",
-                        "Kh",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "As",
-                        "7d",
-                        "8d",
-                        "Jd",
-                        "Ah",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
+        "round 6": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "9s",
                         "Ks",
+                        "7d",
                         "9d",
-                        "10d",
-                        "Kd",
                         "7h",
-                        "8h",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "h"
-        },
-        "round 12": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "9s",
-                        "10s",
-                        "Kd",
-                        "Jh",
                         "Ah",
                         "7c",
-                        "9c",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
-                        "Qs",
+                        "8s",
                         "As",
+                        "8d",
                         "10d",
-                        "10h",
+                        "8h",
+                        "9h",
                         "Kh",
-                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "Js",
+                        "Qs",
+                        "Jd",
+                        "10h",
+                        "Qh",
                         "Jc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "7d",
-                        "9d",
-                        "7h",
-                        "8h",
-                        "Qh",
-                        "10c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
                     "cards": [
-                        "8s",
-                        "Js",
-                        "Ks",
-                        "8d",
-                        "Jd",
+                        "10s",
                         "Qd",
+                        "Kd",
                         "Ad",
-                        "9h"
+                        "Jh",
+                        "8c",
+                        "9c",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
                 }
             },
-            "trumps": "c"
+            "trumps": "s"
         },
-        "round 13": {
-            "m": {
-                "n": {
+        "round 7": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "7h",
+                        "Jh",
+                        "7c",
+                        "Qc",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "toni": {
                     "cards": [
                         "8s",
                         "9s",
-                        "Ks",
-                        "As",
-                        "8h",
-                        "9h",
-                        "Qc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Js",
-                        "7d",
                         "8d",
+                        "Qd",
                         "Kd",
-                        "7h",
-                        "10h",
-                        "Jh",
+                        "8h",
+                        "Qh",
                         "8c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "7s",
                         "10s",
-                        "Qs",
-                        "Qd",
-                        "Qh",
-                        "Ah",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9d",
-                        "10d",
-                        "Jd",
-                        "Ad",
-                        "Kh",
-                        "9c",
-                        "Jc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 14": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "As",
                         "7d",
-                        "7h",
-                        "Jh",
-                        "Kh",
-                        "7c",
+                        "Ad",
+                        "9h",
+                        "10h",
+                        "Ah",
+                        "9c",
                         "10c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "rado": {
                     "cards": [
-                        "9s",
-                        "10s",
-                        "Kd",
-                        "8h",
-                        "9h",
-                        "Ah",
-                        "Qc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
+                        "7s",
                         "Js",
-                        "Qs",
-                        "Ks",
-                        "8d",
+                        "As",
                         "9d",
-                        "Jd",
-                        "9c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
                         "10d",
-                        "Qd",
-                        "Ad",
-                        "10h",
-                        "Qh",
-                        "8c",
+                        "Jd",
+                        "Kh",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "h"
-        },
-        "round 15": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9d",
-                        "7h",
-                        "7c",
-                        "9c",
-                        "10c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7s",
-                        "9s",
-                        "Js",
-                        "7d",
-                        "10d",
-                        "8h",
-                        "10h",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Qs",
-                        "Ks",
-                        "Jd",
-                        "Kd",
-                        "Qh",
-                        "Kh",
-                        "8c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "10s",
-                        "As",
-                        "8d",
-                        "Qd",
-                        "Ad",
-                        "9h",
-                        "Jh",
-                        "Ah"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "d"
+        },
+        "round 8": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "10s",
+                        "7d",
+                        "10d",
+                        "Qd",
+                        "Ah",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "Ks",
+                        "Kd",
+                        "Jh",
+                        "8c",
+                        "Jc",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Js",
+                        "Qs",
+                        "As",
+                        "9d",
+                        "Jd",
+                        "7h",
+                        "Kh",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "8d",
+                        "Ad",
+                        "8h",
+                        "9h",
+                        "10h",
+                        "Qh",
+                        "7c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 9": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Qs",
+                        "9d",
+                        "Kd",
+                        "Qh",
+                        "Ah",
+                        "10c",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "Js",
+                        "8d",
+                        "Jd",
+                        "Qd",
+                        "7h",
+                        "8h",
+                        "Jh"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "Ks",
+                        "7d",
+                        "9h",
+                        "Kh",
+                        "7c",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "As",
+                        "10d",
+                        "Ad",
+                        "10h",
+                        "8c",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "d"
+        },
+        "round 10": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Js",
+                        "Ks",
+                        "7d",
+                        "7h",
+                        "10h",
+                        "Kh",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "10s",
+                        "Jh",
+                        "Qh",
+                        "Ah",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "9d",
+                        "10d",
+                        "Kd",
+                        "8h",
+                        "9h",
+                        "7c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "Qs",
+                        "As",
+                        "8d",
+                        "Jd",
+                        "Qd",
+                        "Ad",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "s"
+        },
+        "round 11": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "10s",
+                        "As",
+                        "10h",
+                        "Jh",
+                        "10c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "8s",
+                        "Js",
+                        "7d",
+                        "Qd",
+                        "Kd",
+                        "Ad",
+                        "Qh",
+                        "Jc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "8d",
+                        "9d",
+                        "Jd",
+                        "7h",
+                        "Ah",
+                        "7c",
+                        "8c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "10d",
+                        "8h",
+                        "9h",
+                        "Kh",
+                        "9c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "s"
+        },
+        "round 12": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "Qd",
+                        "7h",
+                        "10h",
+                        "Qh",
+                        "10c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "As",
+                        "7d",
+                        "9d",
+                        "Kd",
+                        "Jh",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Js",
+                        "8h",
+                        "9h",
+                        "Kh",
+                        "Ah",
+                        "7c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "10s",
+                        "8d",
+                        "10d",
+                        "Jd",
+                        "Ad",
+                        "8c",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
         }
     },
     "game 2": {
         "round 1": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "10s",
                         "Qs",
-                        "Qd",
+                        "Ks",
+                        "7d",
                         "Ad",
+                        "9c",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9d",
+                        "Jd",
                         "9h",
                         "10h",
+                        "Kh",
+                        "Ah",
+                        "7c",
+                        "8c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "Js",
+                        "10d",
+                        "Qd",
+                        "Kd",
+                        "7h",
+                        "Qh",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "As",
+                        "8d",
+                        "8h",
+                        "Jh",
+                        "10c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 2": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8d",
+                        "10d",
+                        "Qd",
+                        "Qh",
+                        "7c",
+                        "9c",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "10s",
+                        "Js",
+                        "Jd",
+                        "8h",
                         "10c",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Ks",
+                        "As",
+                        "Kd",
+                        "Ad",
+                        "Jh",
+                        "Ah",
+                        "8c",
+                        "Jc"
+                    ],
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "rado": {
                     "cards": [
                         "8s",
-                        "10d",
-                        "Ah",
+                        "Qs",
+                        "7d",
+                        "9d",
+                        "7h",
+                        "9h",
+                        "10h",
+                        "Kh"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "nt"
+        },
+        "round 3": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "9d",
+                        "Qd",
+                        "Ad",
+                        "9h",
+                        "Kh",
                         "7c",
-                        "8c",
                         "9c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Js",
+                        "Ks",
+                        "7d",
+                        "8d",
+                        "Kd",
+                        "Jh",
                         "Jc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "Js",
-                        "Ks",
+                        "7s",
+                        "Qs",
                         "As",
-                        "8d",
-                        "9d",
-                        "Jd",
-                        "Kd",
-                        "8h"
+                        "7h",
+                        "10h",
+                        "Qh",
+                        "Qc",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "10s",
+                        "10d",
+                        "Jd",
+                        "8h",
+                        "Ah",
+                        "8c"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "s"
+        },
+        "round 4": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "7s",
                         "9s",
-                        "7d",
+                        "Qs",
+                        "Jd",
                         "7h",
-                        "Jh",
                         "Qh",
-                        "Kh",
+                        "9c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "9d",
+                        "10d",
+                        "8h",
+                        "9h",
+                        "Jh",
+                        "8c",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "d"
-        },
-        "round 2": {
-            "m": {
-                "n": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "10s",
                         "Js",
-                        "Qs",
+                        "As",
+                        "8d",
+                        "Qd",
                         "Ad",
-                        "8c",
-                        "10c",
+                        "Kh",
+                        "Ah",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "Ks",
+                        "7d",
+                        "Kd",
+                        "10h",
+                        "7c",
                         "Qc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7d",
-                        "8d",
-                        "9d",
-                        "Qd",
-                        "8h",
-                        "Qh",
-                        "7c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "9s",
-                        "Ks",
-                        "10d",
-                        "Jd",
-                        "7h",
-                        "10h",
-                        "Kh",
-                        "9c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "8s",
-                        "As",
-                        "Kd",
-                        "9h",
-                        "Jh",
-                        "Ah",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "s"
         },
-        "round 3": {
-            "m": {
-                "n": {
+        "round 5": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "8s",
-                        "Ks",
-                        "As",
-                        "8d",
-                        "7h",
-                        "8h",
-                        "Jh",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
+                        "9s",
                         "Js",
-                        "7d",
-                        "10d",
                         "Kd",
+                        "Ad",
                         "10h",
-                        "Kh",
-                        "10c",
+                        "7c",
+                        "8c",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
+                        "Ks",
+                        "9d",
+                        "Qd",
+                        "8h",
+                        "10c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "10s",
+                        "Qs",
+                        "As",
+                        "7d",
+                        "9h",
+                        "Jh",
+                        "Ah",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "8d",
+                        "10d",
+                        "Jd",
+                        "7h",
+                        "Qh",
+                        "Kh",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "trumps": "s"
+        },
+        "round 6": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Jd",
+                        "Qd",
+                        "Ad",
+                        "7h",
+                        "9h",
+                        "Kh",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "Qs",
+                        "Ks",
+                        "8d",
+                        "9d",
+                        "8c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "9s",
+                        "10s",
+                        "Js",
+                        "7d",
+                        "Qh",
+                        "Ah",
+                        "9c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "As",
+                        "10d",
+                        "Kd",
+                        "8h",
+                        "10h",
+                        "Jh",
+                        "7c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "nt"
+        },
+        "round 7": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7d",
+                        "10d",
+                        "Kd",
+                        "9h",
+                        "Qh",
+                        "8c",
+                        "10c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
                     "cards": [
                         "9s",
                         "10s",
                         "Qs",
+                        "8d",
                         "Jd",
-                        "9h",
-                        "8c",
-                        "9c",
-                        "Qc"
+                        "Jh",
+                        "Kh",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
-                },
-                "i": {
+                }
+            },
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "7s",
-                        "9d",
+                        "8s",
+                        "Ks",
                         "Qd",
-                        "Ad",
-                        "Qh",
+                        "8h",
+                        "10h",
                         "Ah",
-                        "7c",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Js",
+                        "As",
+                        "9d",
+                        "Ad",
+                        "7h",
+                        "7c",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "at"
         },
-        "round 4": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9s",
-                        "Ks",
-                        "7d",
-                        "Qd",
-                        "Kd",
-                        "9h",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "10s",
-                        "Qs",
-                        "10d",
-                        "Ad",
-                        "10h",
-                        "Jh",
-                        "Ah",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
+        "round 8": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "7s",
-                        "Js",
-                        "8d",
-                        "9d",
-                        "8h",
+                        "8s",
+                        "Ks",
+                        "Qd",
+                        "Kd",
                         "Qh",
-                        "Jc",
+                        "7c",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
-                        "As",
-                        "Jd",
-                        "7h",
+                        "10s",
+                        "Js",
+                        "Jh",
                         "Kh",
-                        "8c",
+                        "Ah",
                         "9c",
                         "Qc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "9s",
+                        "Qs",
+                        "As",
+                        "8d",
+                        "9d",
+                        "7h",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7d",
+                        "10d",
+                        "Jd",
+                        "Ad",
+                        "8h",
+                        "9h",
+                        "10h",
+                        "Jc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
                 }
             },
             "trumps": "d"
         },
-        "round 5": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "Ks",
-                        "Jd",
-                        "Qh",
-                        "Kh",
-                        "7c",
-                        "9c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "8d",
-                        "Kd",
-                        "8h",
-                        "Jh",
-                        "Jc",
-                        "Kc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "10s",
-                        "Js",
-                        "7d",
-                        "Qd",
-                        "7h",
-                        "10h",
-                        "Ah",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9s",
-                        "Qs",
-                        "As",
-                        "9d",
-                        "10d",
-                        "Ad",
-                        "9h",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 6": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "Qs",
-                        "As",
-                        "10d",
-                        "10h",
-                        "Ah",
-                        "Jc",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "7d",
-                        "Ad",
-                        "9h",
-                        "Jh",
-                        "Qh",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "8d",
-                        "Kd",
-                        "7h",
-                        "8h",
-                        "9c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9s",
-                        "9d",
-                        "Jd",
-                        "Qd",
-                        "Kh",
-                        "8c",
-                        "Kc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 7": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "7d",
-                        "10d",
-                        "7h",
-                        "Ah",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "10s",
-                        "Qs",
-                        "Jd",
-                        "Ad",
-                        "10h",
-                        "10c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "9d",
-                        "Kd",
-                        "Jh",
-                        "Kh",
-                        "8c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "Qd",
-                        "8h",
-                        "9h",
-                        "Qh",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 8": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Qs",
-                        "Ks",
-                        "10h",
-                        "Qh",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "Qd",
-                        "Kd",
-                        "Ad",
-                        "7h",
-                        "8h",
-                        "Jh",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "Jd",
-                        "9h",
-                        "Kh",
-                        "Ah",
-                        "10c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "9d",
-                        "10d",
-                        "7c",
-                        "8c",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
         "round 9": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "9s",
-                        "Js",
-                        "8d",
-                        "Ad",
-                        "7h",
-                        "Qh",
-                        "Ah",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "8s",
-                        "Qs",
-                        "7d",
-                        "9d",
-                        "10d",
-                        "Kd",
-                        "8h",
-                        "9c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "10s",
-                        "Ks",
                         "As",
-                        "Qd",
-                        "10h",
-                        "Jh",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
+                        "9d",
                         "Jd",
                         "9h",
-                        "Kh",
-                        "7c",
-                        "8c",
+                        "10c",
                         "Jc",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "toni": {
+                    "cards": [
+                        "Js",
+                        "Ks",
+                        "8d",
+                        "Qd",
+                        "Kd",
+                        "Jh",
+                        "Qh",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "Qs",
+                        "10d",
+                        "Ad",
+                        "7h",
+                        "Kh",
+                        "Ah",
+                        "7c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "10s",
+                        "7d",
+                        "8h",
+                        "10h",
+                        "8c",
+                        "9c",
+                        "Kc"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "c"
         },
         "round 10": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "Jd",
-                        "9h",
-                        "10h",
-                        "Jh",
-                        "Kh",
-                        "Ah",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7s",
                         "8s",
-                        "10s",
+                        "9s",
+                        "Qs",
                         "As",
-                        "8d",
-                        "7h",
-                        "Qh",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
                         "10d",
-                        "Qd",
                         "Kd",
                         "8h",
-                        "7c",
-                        "9c",
-                        "Qc",
-                        "Ac"
+                        "Jh"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
-                        "9s",
-                        "Js",
-                        "Qs",
-                        "Ks",
-                        "7d",
-                        "9d",
-                        "Ad",
-                        "8c"
+                        "10s",
+                        "Qd",
+                        "10h",
+                        "Kh",
+                        "7c",
+                        "10c",
+                        "Qc",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "nt"
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "Ks",
+                        "7d",
+                        "Ad",
+                        "7h",
+                        "8c",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Js",
+                        "8d",
+                        "9d",
+                        "Jd",
+                        "9h",
+                        "Qh",
+                        "Ah",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
         },
         "round 11": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "7s",
                         "10s",
+                        "As",
                         "Ad",
-                        "9h",
+                        "8h",
                         "Jh",
-                        "Jc",
-                        "Qc",
-                        "Ac"
+                        "7c",
+                        "9c",
+                        "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
+                        "7s",
                         "8s",
+                        "Js",
                         "Qs",
-                        "Qd",
-                        "10h",
+                        "10d",
                         "Qh",
-                        "Kh",
-                        "9c",
-                        "Kc"
+                        "Ah",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "Js",
-                        "As",
-                        "7d",
-                        "8d",
-                        "Jd",
-                        "Ah",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9s",
                         "Ks",
                         "9d",
-                        "10d",
+                        "Jd",
+                        "Qd",
+                        "10h",
+                        "10c",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "7d",
+                        "8d",
                         "Kd",
                         "7h",
-                        "8h",
+                        "9h",
+                        "Kh",
                         "8c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "h"
         },
         "round 12": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "9s",
+                        "8s",
                         "10s",
+                        "Ks",
+                        "9d",
                         "Kd",
-                        "Jh",
-                        "Ah",
-                        "7c",
-                        "9c",
-                        "Qc"
+                        "8h",
+                        "Qh",
+                        "9c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
                         "Qs",
-                        "As",
                         "10d",
-                        "10h",
+                        "Qd",
+                        "Jh",
                         "Kh",
-                        "8c",
+                        "7c",
                         "Jc",
-                        "Kc"
+                        "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "7s",
+                        "As",
+                        "7d",
+                        "Ad",
+                        "7h",
+                        "9h",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "Js",
+                        "8d",
+                        "Jd",
+                        "10h",
+                        "Ah",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "s"
+        },
+        "round 13": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "Qs",
+                        "Ks",
+                        "7h",
+                        "Jh",
+                        "7c",
+                        "9c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "Js",
+                        "8d",
+                        "10d",
+                        "Kh",
+                        "Ah",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "10s",
                         "7d",
                         "9d",
+                        "Jd",
+                        "Qd",
+                        "Kd",
+                        "10h"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "As",
+                        "Ad",
+                        "8h",
+                        "9h",
+                        "Qh",
+                        "8c",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 14": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "7d",
+                        "9d",
+                        "Ad",
                         "7h",
+                        "Kh",
+                        "Ah"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "Jd",
+                        "Qd",
                         "8h",
                         "Qh",
+                        "7c",
                         "10c",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "Js",
-                        "Ks",
-                        "8d",
-                        "Jd",
-                        "Qd",
-                        "Ad",
-                        "9h"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "c"
-        },
-        "round 13": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9s",
-                        "Ks",
-                        "As",
-                        "8h",
-                        "9h",
-                        "Qc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "8d",
-                        "Kd",
-                        "7h",
-                        "10h",
-                        "Jh",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "7s",
-                        "10s",
-                        "Qs",
-                        "Qd",
-                        "Qh",
-                        "Ah",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9d",
+                        "9s",
+                        "Js",
+                        "8d",
                         "10d",
-                        "Jd",
-                        "Ad",
-                        "Kh",
-                        "9c",
+                        "9h",
                         "Jc",
-                        "Kc"
+                        "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 14": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "As",
-                        "7d",
-                        "7h",
-                        "Jh",
-                        "Kh",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "10s",
-                        "Kd",
-                        "8h",
-                        "9h",
-                        "Ah",
-                        "Qc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "Qs",
-                        "Ks",
-                        "8d",
-                        "9d",
-                        "Jd",
-                        "9c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
+                "rado": {
                     "cards": [
                         "8s",
-                        "10d",
-                        "Qd",
-                        "Ad",
+                        "As",
+                        "Kd",
                         "10h",
-                        "Qh",
+                        "Jh",
                         "8c",
-                        "Jc"
+                        "9c",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "h"
         },
         "round 15": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9d",
-                        "7h",
-                        "7c",
-                        "9c",
-                        "10c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "7s",
-                        "9s",
+                        "8s",
                         "Js",
-                        "7d",
-                        "10d",
+                        "Ad",
                         "8h",
-                        "10h",
+                        "8c",
+                        "Jc",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "8d",
+                        "Qd",
+                        "7h",
+                        "9h",
+                        "Jh",
+                        "Qh",
+                        "Ah"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "10s",
+                        "7d",
+                        "9d",
+                        "Jd",
+                        "10h",
+                        "7c",
+                        "10c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
                     "cards": [
                         "Qs",
                         "Ks",
-                        "Jd",
+                        "As",
+                        "10d",
                         "Kd",
-                        "Qh",
                         "Kh",
-                        "8c",
-                        "Kc"
+                        "9c",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [
+                        "belote",
+                        "tierce"
+                    ],
+                    "points": 40
+                }
+            },
+            "trumps": "at"
+        },
+        "round 16": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7d",
+                        "8d",
+                        "7h",
+                        "9h",
+                        "10h",
+                        "Kh",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
+                        "8s",
+                        "As",
+                        "9d",
+                        "8h",
+                        "Jh",
+                        "10c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "10s",
+                        "Qs",
+                        "Ks",
+                        "10d",
+                        "Jd",
+                        "Ah",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "Js",
+                        "Qd",
+                        "Kd",
+                        "Ad",
+                        "Qh",
+                        "7c",
+                        "8c"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "h"
+        },
+        "round 17": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "Js",
+                        "7d",
+                        "10h",
+                        "Ah",
+                        "7c",
+                        "9c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
                         "10s",
                         "As",
-                        "8d",
-                        "Qd",
+                        "9d",
                         "Ad",
                         "9h",
                         "Jh",
-                        "Ah"
+                        "8c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "10d",
+                        "7h",
+                        "Qh",
+                        "Kh",
+                        "Qc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "8d",
+                        "Jd",
+                        "Qd",
+                        "Kd",
+                        "8h",
+                        "10c",
+                        "Jc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "h"
+        },
+        "round 18": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "Ks",
+                        "9d",
+                        "8h",
+                        "9h",
+                        "Jh",
+                        "Qh",
+                        "7c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "10s",
+                        "Qs",
+                        "Ad",
+                        "10h",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Js",
+                        "8d",
+                        "10d",
+                        "Jd",
+                        "7h",
+                        "Kh",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "As",
+                        "7d",
+                        "Qd",
+                        "Kd",
+                        "Ah",
+                        "8c",
+                        "10c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 19": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "10s",
+                        "Ks",
+                        "Qd",
+                        "8h",
+                        "Ah",
+                        "9c",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "As",
+                        "8d",
+                        "10d",
+                        "Kd",
+                        "7h",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "8s",
+                        "Qs",
+                        "7d",
+                        "9d",
+                        "9h",
+                        "7c",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "Js",
+                        "Jd",
+                        "Ad",
+                        "10h",
+                        "Jh",
+                        "Qh",
+                        "Kh"
+                    ],
+                    "announcements": [
+                        "quarte"
+                    ],
+                    "points": 50
                 }
             },
             "trumps": "d"
@@ -2615,1309 +1997,1227 @@
     },
     "game 3": {
         "round 1": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "7d",
+                        "8d",
+                        "Qd",
+                        "Kd",
+                        "9h",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
                     "cards": [
                         "10s",
-                        "Qs",
-                        "Qd",
-                        "Ad",
-                        "9h",
+                        "Jd",
+                        "7h",
                         "10h",
+                        "Qh",
+                        "Ah",
                         "10c",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "10d",
-                        "Ah",
-                        "7c",
-                        "8c",
-                        "9c",
-                        "Jc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "Js",
-                        "Ks",
-                        "As",
-                        "8d",
-                        "9d",
-                        "Jd",
-                        "Kd",
-                        "8h"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "9s",
-                        "7d",
-                        "7h",
-                        "Jh",
-                        "Qh",
-                        "Kh",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "d"
-        },
-        "round 2": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "10s",
                         "Js",
                         "Qs",
-                        "Ad",
-                        "8c",
-                        "10c",
-                        "Qc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "7d",
-                        "8d",
-                        "9d",
-                        "Qd",
-                        "8h",
-                        "Qh",
-                        "7c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "9s",
-                        "Ks",
-                        "10d",
-                        "Jd",
-                        "7h",
-                        "10h",
-                        "Kh",
-                        "9c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "7s",
-                        "8s",
                         "As",
-                        "Kd",
-                        "9h",
-                        "Jh",
-                        "Ah",
+                        "Ad",
+                        "8h",
+                        "Kh",
+                        "9c",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "Ks",
+                        "9d",
+                        "10d",
+                        "Jh",
+                        "7c",
+                        "8c",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "s"
         },
-        "round 3": {
-            "m": {
-                "n": {
+        "round 2": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "8s",
-                        "Ks",
+                        "7s",
                         "As",
-                        "8d",
-                        "7h",
-                        "8h",
-                        "Jh",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Js",
                         "7d",
+                        "9d",
                         "10d",
-                        "Kd",
                         "10h",
-                        "Kh",
-                        "10c",
+                        "Jc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Ks",
+                        "8d",
+                        "Jd",
+                        "Ad",
+                        "Jh",
+                        "7c",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
+                        "8s",
                         "9s",
-                        "10s",
                         "Qs",
-                        "Jd",
-                        "9h",
-                        "8c",
-                        "9c",
+                        "Kd",
+                        "7h",
+                        "Qh",
+                        "Ah",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
+                    "cards": [
+                        "10s",
+                        "Js",
+                        "Qd",
+                        "8h",
+                        "9h",
+                        "Kh",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "c"
+        },
+        "round 3": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "7s",
+                        "Ks",
+                        "Jd",
+                        "Kd",
+                        "10h",
+                        "Jh",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "8s",
+                        "10s",
+                        "As",
+                        "Ad",
+                        "8h",
+                        "Qh",
+                        "8c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Js",
+                        "7d",
                         "9d",
                         "Qd",
+                        "7h",
+                        "9h",
+                        "7c",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "Qs",
+                        "8d",
+                        "10d",
+                        "Kh",
+                        "Ah",
+                        "10c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 4": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "9s",
+                        "Ks",
+                        "10d",
+                        "Jd",
                         "Ad",
-                        "Qh",
+                        "8h",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "Js",
+                        "8d",
+                        "7h",
+                        "9h",
                         "Ah",
                         "7c",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "at"
-        },
-        "round 4": {
-            "m": {
-                "n": {
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "8s",
-                        "9s",
-                        "Ks",
-                        "7d",
-                        "Qd",
-                        "Kd",
-                        "9h",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "10s",
                         "Qs",
-                        "10d",
-                        "Ad",
-                        "10h",
-                        "Jh",
-                        "Ah",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "Js",
-                        "8d",
+                        "7d",
                         "9d",
-                        "8h",
-                        "Qh",
-                        "Jc",
+                        "10h",
+                        "Kh",
+                        "9c",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
                     "cards": [
+                        "7s",
                         "As",
-                        "Jd",
-                        "7h",
-                        "Kh",
-                        "8c",
-                        "9c",
+                        "Qd",
+                        "Kd",
+                        "Jh",
+                        "Qh",
                         "Qc",
                         "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "d"
         },
         "round 5": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "7s",
-                        "Ks",
+                        "10s",
                         "Jd",
+                        "7h",
+                        "9h",
+                        "10h",
                         "Qh",
-                        "Kh",
                         "7c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Qs",
+                        "7d",
+                        "8d",
+                        "Qd",
+                        "Ad",
+                        "Kh",
                         "9c",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
-                },
-                "t": {
+                }
+            },
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "8s",
-                        "8d",
+                        "7s",
+                        "9d",
+                        "10d",
                         "Kd",
                         "8h",
                         "Jh",
-                        "Jc",
-                        "Kc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "10s",
-                        "Js",
-                        "7d",
-                        "Qd",
-                        "7h",
-                        "10h",
                         "Ah",
                         "10c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
                     "cards": [
+                        "8s",
                         "9s",
-                        "Qs",
+                        "Js",
+                        "Ks",
                         "As",
-                        "9d",
-                        "10d",
-                        "Ad",
-                        "9h",
-                        "8c"
+                        "8c",
+                        "Jc",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "trumps": "c"
+            "trumps": "s"
         },
         "round 6": {
-            "m": {
-                "n": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "8s",
-                        "Qs",
-                        "As",
-                        "10d",
+                        "9d",
+                        "Ad",
+                        "8h",
+                        "9h",
                         "10h",
                         "Ah",
-                        "Jc",
-                        "Qc"
+                        "8c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
                 },
-                "t": {
+                "toni": {
                     "cards": [
-                        "7s",
-                        "10s",
                         "7d",
-                        "Ad",
-                        "9h",
-                        "Jh",
+                        "Qd",
+                        "7h",
                         "Qh",
-                        "7c"
+                        "Kh",
+                        "7c",
+                        "Qc",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
+                        "7s",
                         "Js",
                         "Ks",
                         "8d",
+                        "10d",
                         "Kd",
-                        "7h",
-                        "8h",
                         "9c",
-                        "10c"
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
                     "cards": [
                         "9s",
-                        "9d",
+                        "10s",
+                        "Qs",
+                        "As",
                         "Jd",
-                        "Qd",
+                        "Jh",
+                        "10c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "d"
+        },
+        "round 7": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "10d",
+                        "Kd",
+                        "9h",
+                        "10h",
+                        "Qh",
                         "Kh",
+                        "Ah"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "7d",
+                        "Jd",
+                        "7h",
+                        "8h",
+                        "Jh",
+                        "10c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "10s",
+                        "Ks",
+                        "8d",
+                        "9d",
+                        "7c",
+                        "9c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Js",
+                        "Qs",
+                        "As",
+                        "Qd",
+                        "Ad",
+                        "8c",
+                        "Jc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "h"
+        },
+        "round 8": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "9s",
+                        "Qs",
+                        "7h",
+                        "9h",
+                        "7c",
+                        "10c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "toni": {
+                    "cards": [
+                        "8s",
+                        "Ks",
+                        "10d",
+                        "Qd",
+                        "8h",
+                        "Jh",
+                        "Qh",
+                        "Kh"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "8d",
+                        "9d",
+                        "Kd",
+                        "Ah",
                         "8c",
                         "Kc",
                         "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 7": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "Js",
-                        "Ks",
-                        "7d",
-                        "10d",
-                        "7h",
-                        "Ah",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "rado": {
                     "cards": [
-                        "9s",
                         "10s",
-                        "Qs",
+                        "Js",
+                        "As",
+                        "7d",
                         "Jd",
                         "Ad",
                         "10h",
-                        "10c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "9d",
-                        "Kd",
-                        "Jh",
-                        "Kh",
-                        "8c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "Qd",
-                        "8h",
-                        "9h",
-                        "Qh",
-                        "7c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "s"
-        },
-        "round 8": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Qs",
-                        "Ks",
-                        "10h",
-                        "Qh",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "Qd",
-                        "Kd",
-                        "Ad",
-                        "7h",
-                        "8h",
-                        "Jh",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "Jd",
-                        "9h",
-                        "Kh",
-                        "Ah",
-                        "10c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "As",
-                        "8d",
-                        "9d",
-                        "10d",
-                        "7c",
-                        "8c",
-                        "Jc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 9": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "9s",
-                        "Js",
-                        "8d",
-                        "Ad",
-                        "7h",
-                        "Qh",
-                        "Ah",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "8s",
-                        "Qs",
-                        "7d",
-                        "9d",
-                        "10d",
-                        "Kd",
-                        "8h",
                         "9c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "trumps": "s"
+        },
+        "round 9": {
+            "mashini": {
+                "nikola": {
                     "cards": [
-                        "10s",
-                        "Ks",
+                        "9s",
                         "As",
-                        "Qd",
-                        "10h",
-                        "Jh",
-                        "10c",
-                        "Kc"
+                        "7d",
+                        "8d",
+                        "Kd",
+                        "Ah",
+                        "9c",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
                         "7s",
-                        "Jd",
-                        "9h",
-                        "Kh",
+                        "8s",
+                        "10s",
+                        "Ks",
+                        "9d",
                         "7c",
-                        "8c",
                         "Jc",
                         "Qc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "Jd",
+                        "Ad",
+                        "7h",
+                        "9h",
+                        "10h",
+                        "Qh",
+                        "8c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Js",
+                        "Qs",
+                        "10d",
+                        "Qd",
+                        "8h",
+                        "Jh",
+                        "Kh",
+                        "10c"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "c"
         },
         "round 10": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "Jd",
-                        "9h",
-                        "10h",
-                        "Jh",
-                        "Kh",
-                        "Ah",
-                        "10c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "7s",
                         "8s",
-                        "10s",
-                        "As",
-                        "8d",
                         "7h",
+                        "8h",
                         "Qh",
+                        "Kh",
+                        "Ah",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "10s",
+                        "Qs",
+                        "Ks",
+                        "9d",
+                        "Kd",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
+                        "As",
                         "10d",
-                        "Qd",
-                        "Kd",
-                        "8h",
+                        "Ad",
+                        "9h",
                         "7c",
-                        "9c",
+                        "10c",
                         "Qc",
-                        "Ac"
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "rado": {
+                    "cards": [
+                        "Js",
+                        "7d",
+                        "8d",
+                        "Jd",
+                        "Qd",
+                        "10h",
+                        "Jh",
+                        "8c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "d"
+        },
+        "round 11": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "Ks",
+                        "Jd",
+                        "Ad",
+                        "8c",
+                        "9c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Qs",
+                        "7d",
+                        "9d",
+                        "Qd",
+                        "Kd",
+                        "10h",
+                        "Jh",
+                        "7c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
                     "cards": [
                         "9s",
                         "Js",
+                        "7h",
+                        "9h",
+                        "Qh",
+                        "10c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "10s",
+                        "As",
+                        "8d",
+                        "10d",
+                        "8h",
+                        "Kh",
+                        "Ah",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "c"
+        },
+        "round 12": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "7s",
+                        "Js",
+                        "Qs",
+                        "8d",
+                        "Jd",
+                        "Kd",
+                        "9h",
+                        "Ah"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "7d",
+                        "9d",
+                        "10d",
+                        "8h",
+                        "10h",
+                        "Jc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "As",
+                        "Qd",
+                        "7h",
+                        "Jh",
+                        "Kh",
+                        "7c",
+                        "Qc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "Ks",
+                        "Ad",
+                        "Qh",
+                        "8c",
+                        "9c",
+                        "10c"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "s"
+        },
+        "round 13": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Qs",
+                        "Ks",
+                        "Jd",
+                        "7h",
+                        "8h",
+                        "10h",
+                        "Jh",
+                        "Qh"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "10s",
+                        "8d",
+                        "9d",
+                        "10d",
+                        "Ah",
+                        "8c",
+                        "10c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "As",
+                        "7c",
+                        "9c",
+                        "Jc",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "Js",
+                        "7d",
+                        "Qd",
+                        "Kd",
+                        "Ad",
+                        "9h",
+                        "Kh"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "d"
+        },
+        "round 14": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "10s",
+                        "9d",
+                        "Qd",
+                        "9h",
+                        "Jh",
+                        "Ah",
+                        "7c",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "Js",
+                        "Ad",
+                        "7h",
+                        "10h",
+                        "Qh",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "9s",
+                        "Ks",
+                        "As",
+                        "7d",
+                        "10d",
+                        "Kd",
+                        "8c",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "Qs",
+                        "8d",
+                        "Jd",
+                        "8h",
+                        "Kh",
+                        "9c",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "at"
+        },
+        "round 15": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "Js",
+                        "8h",
+                        "9h",
+                        "Kh",
+                        "7c",
+                        "9c",
+                        "10c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "9s",
+                        "10s",
+                        "8d",
+                        "10d",
+                        "Jh",
+                        "Qh",
+                        "Qc",
+                        "Ac"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "As",
+                        "9d",
+                        "Ad",
+                        "10h",
+                        "Ah",
+                        "8c",
+                        "Jc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
                         "Qs",
                         "Ks",
                         "7d",
-                        "9d",
-                        "Ad",
-                        "8c"
+                        "Jd",
+                        "Qd",
+                        "Kd",
+                        "7h",
+                        "Kc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "nt"
         },
-        "round 11": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Ad",
-                        "9h",
-                        "Jh",
-                        "Jc",
-                        "Qc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
+        "round 16": {
+            "mashini": {
+                "nikola": {
                     "cards": [
                         "8s",
+                        "10s",
                         "Qs",
-                        "Qd",
-                        "10h",
-                        "Qh",
-                        "Kh",
-                        "9c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
+                        "Ks",
                         "As",
-                        "7d",
-                        "8d",
-                        "Jd",
-                        "Ah",
-                        "7c",
+                        "9h",
+                        "8c",
                         "10c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "i": {
+                "toni": {
                     "cards": [
-                        "9s",
-                        "Ks",
-                        "9d",
-                        "10d",
-                        "Kd",
-                        "7h",
-                        "8h",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "h"
-        },
-        "round 12": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "9s",
-                        "10s",
-                        "Kd",
-                        "Jh",
-                        "Ah",
-                        "7c",
-                        "9c",
-                        "Qc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Qs",
-                        "As",
-                        "10d",
-                        "10h",
-                        "Kh",
-                        "8c",
-                        "Jc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
                         "7d",
                         "9d",
+                        "10d",
+                        "Jd",
+                        "Kd",
+                        "Kh",
+                        "Ah",
+                        "9c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "9s",
+                        "Js",
+                        "8d",
+                        "Qd",
                         "7h",
-                        "8h",
+                        "Jh",
                         "Qh",
+                        "7c"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "Ad",
+                        "8h",
+                        "10h",
+                        "Jc",
+                        "Qc",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "quarte"
+                    ],
+                    "points": 50
+                }
+            },
+            "trumps": "d"
+        },
+        "round 17": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "Js",
+                        "Qd",
+                        "Jh",
+                        "Qh",
+                        "8c",
                         "10c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "Js",
-                        "Ks",
-                        "8d",
-                        "Jd",
-                        "Qd",
-                        "Ad",
-                        "9h"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 13": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9s",
-                        "Ks",
-                        "As",
-                        "8h",
-                        "9h",
-                        "Qc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "Js",
-                        "7d",
-                        "8d",
-                        "Kd",
-                        "7h",
-                        "10h",
-                        "Jh",
-                        "8c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "7s",
-                        "10s",
-                        "Qs",
-                        "Qd",
-                        "Qh",
-                        "Ah",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "9d",
-                        "10d",
-                        "Jd",
-                        "Ad",
-                        "Kh",
-                        "9c",
-                        "Jc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "c"
-        },
-        "round 14": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "7s",
-                        "As",
-                        "7d",
-                        "7h",
-                        "Jh",
-                        "Kh",
-                        "7c",
-                        "10c"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "t": {
-                    "cards": [
-                        "9s",
-                        "10s",
-                        "Kd",
-                        "8h",
-                        "9h",
-                        "Ah",
-                        "Qc",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "s": {
-                "m": {
-                    "cards": [
-                        "Js",
-                        "Qs",
-                        "Ks",
-                        "8d",
-                        "9d",
-                        "Jd",
-                        "9c",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
-                        "8s",
-                        "10d",
-                        "Qd",
-                        "Ad",
-                        "10h",
-                        "Qh",
-                        "8c",
                         "Jc"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                }
-            },
-            "trumps": "h"
-        },
-        "round 15": {
-            "m": {
-                "n": {
-                    "cards": [
-                        "8s",
-                        "9d",
-                        "7h",
-                        "7c",
-                        "9c",
-                        "10c",
-                        "Jc",
-                        "Ac"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 },
-                "t": {
+                "toni": {
                     "cards": [
-                        "7s",
-                        "9s",
-                        "Js",
                         "7d",
                         "10d",
-                        "8h",
+                        "Ad",
                         "10h",
-                        "Qc"
+                        "Ah",
+                        "7c",
+                        "9c",
+                        "Ac"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
                     "points": 0
                 }
             },
-            "s": {
-                "m": {
+            "slabaci": {
+                "marto": {
                     "cards": [
-                        "Qs",
-                        "Ks",
-                        "Jd",
-                        "Kd",
-                        "Qh",
-                        "Kh",
-                        "8c",
-                        "Kc"
-                    ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
-                    "points": 0
-                },
-                "i": {
-                    "cards": [
+                        "9s",
                         "10s",
                         "As",
                         "8d",
+                        "Jd",
+                        "9h",
+                        "Kh",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "Qs",
+                        "Ks",
+                        "9d",
+                        "Kd",
+                        "7h",
+                        "8h",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "trumps": "c"
+        },
+        "round 18": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "Qs",
+                        "As",
+                        "7d",
+                        "8d",
+                        "Jd",
+                        "7h",
+                        "8h",
+                        "9h"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Js",
+                        "Ks",
                         "Qd",
                         "Ad",
-                        "9h",
                         "Jh",
-                        "Ah"
+                        "Qh",
+                        "Ah",
+                        "7c"
                     ],
-                    "announcements": {
-                        "belote": [],
-                        "tierce": [],
-                        "quarte": [],
-                        "quinta": [],
-                        "carre": []
-                    },
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "8s",
+                        "10s",
+                        "9d",
+                        "8c",
+                        "9c",
+                        "10c",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "10d",
+                        "Kd",
+                        "10h",
+                        "Kh",
+                        "Jc",
+                        "Qc"
+                    ],
+                    "announcements": [],
                     "points": 0
                 }
             },
             "trumps": "d"
+        },
+        "round 19": {
+            "mashini": {
+                "nikola": {
+                    "cards": [
+                        "8s",
+                        "7d",
+                        "Jd",
+                        "Qd",
+                        "8h",
+                        "Qh",
+                        "Jc",
+                        "Kc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                },
+                "toni": {
+                    "cards": [
+                        "Ks",
+                        "9d",
+                        "Kd",
+                        "7h",
+                        "9h",
+                        "Jh",
+                        "7c",
+                        "Qc"
+                    ],
+                    "announcements": [],
+                    "points": 0
+                }
+            },
+            "slabaci": {
+                "marto": {
+                    "cards": [
+                        "7s",
+                        "10s",
+                        "Js",
+                        "Qs",
+                        "As",
+                        "8d",
+                        "Ad",
+                        "Ac"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                },
+                "rado": {
+                    "cards": [
+                        "9s",
+                        "10d",
+                        "10h",
+                        "Kh",
+                        "Ah",
+                        "8c",
+                        "9c",
+                        "10c"
+                    ],
+                    "announcements": [
+                        "tierce"
+                    ],
+                    "points": 20
+                }
+            },
+            "trumps": "s"
         }
     }
 }
