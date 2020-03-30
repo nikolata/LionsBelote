@@ -5,6 +5,8 @@ from card import Card
 
 class Team:
     def __init__(self, name, p1, p2):
+        if len(name)>10:
+            raise ValueError
         self.name = name
         self.player1 = p1
         self.player2 = p2

@@ -14,6 +14,12 @@ class TestTeam(unittest.TestCase):
 
         self.assertEqual(t.name, 'me')
 
+    def test_with_name_bigger_than_10_char_raise_ValueError(self):
+        p1 = Player(name='ime1')
+        p2 = Player(name='ime2')
+
+        with self.assertRaises(ValueError):
+            t = Team('meeeeeeeeeeeee', p1, p2)
 
     def test_update_points_with_0_points_for_the_first_time(self):
         p1 = Player(name='ime1')
