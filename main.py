@@ -22,11 +22,13 @@ def main():
 #test
 
 	game = Game(team1,team2)
+	with open('results.txt','w') as file:
+		pass
+	game_number = 1
 	while game.team1_wins !=2 and game.team2_wins!=2:
 		round_number = 1
 		create_file_with_headers(team1,team2)
 		is_game_won = False
-		game_number = 1
 		while not is_game_won:
 				game.play_round(round_number)
 				if round_number == 1:
@@ -40,6 +42,7 @@ def main():
 				
 
 				round_number +=1
+
 		safe_to_txt(team1,team2,last_round = True)
 		if team1.points > team2.points:
 			game.team1_wins +=1
@@ -48,21 +51,15 @@ def main():
 			game.team2_wins +=1
 			game.last_winner = 'team2'
 		game.set_dict(game_number)
-		game_number +=1
-
-
-		game.team1.points = []
-		game.team2.points = []
-
-		# game.set_dict(game_number)
+		team1.points = []
+		team2.points = []
 		game_number += 1
 		print('-------------------------------NEW GAME----------------------------------------')
+		display_game_points(game.team1_wins,game.team2_wins)
 
-		# game.safe_to_txt()
-
+		
 		game.safe_to_json()
 
-		display_game_points(game.team1_wins,game.team2_wins)
 
 if __name__ == '__main__':
 	main()

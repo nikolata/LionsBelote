@@ -25,7 +25,7 @@ class Game:
 	def set_dict(self,game_num=1):
 		game_n = 'game ' + str(game_num)
 		self.games_dict.update({game_n: self.game_dict})
-		print(self.games_dict)
+	#	print(self.games_dict)
 	def safe_to_json(self):
 		with open('data.json', 'w') as file:
 				json.dump(self.games_dict,file,indent = 4)

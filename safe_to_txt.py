@@ -1,7 +1,7 @@
 def create_file_with_headers(team1,team2):
 	header = '{:^20}|{:^20}'.format(team1.name,team2.name)
 	eq_row = '{:=^41}'.format('=')
-	with open("results.txt", "w") as file:
+	with open("results.txt", "a") as file:
 		file.write(header + '\n')
 		file.write(eq_row + '\n')
 
@@ -15,10 +15,8 @@ def safe_to_txt(team1,team2,*,first_round = False,last_round = False):
 		all_points_team2 = sum(team2.points) - team2.points[-1]
 		team1_string = '{} + {}'.format(all_points_team1,team1.points[-1])
 		team2_string = '{} + {}'.format(all_points_team2,team2.points[-1])
-		current_row = '{:<20}|{:<20}'.format(team1_string,team2_string)
 		last_row = '{:<20}|{:<20}'.format(sum(team1.points),sum(team2.points))
 		with open('results.txt','a') as file:
-			file.write(current_row + '\n')			
 			file.write(last_row + '\n')
 	else:
 		all_points_team1 = sum(team1.points) - team1.points[-1]
