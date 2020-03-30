@@ -17,7 +17,8 @@ class Game:
 			r.play(player = random.choice([self.team2.player1,self.team2.player1]))
 		else:
 			r.play(player = self.team1.player1)
+		
 
 
-	#def set_dict(self, round):
-	#	self.dict.append(round.number: round.set_dict())
+	# def set_dict(self, round):
+	# 	self.dict.append(round.number: round.set_dict())

@@ -861,6 +861,18 @@ class TestPlayer(unittest.TestCase):
 
 		self.assertEqual(expected, player.announcements)  
 
+	def test_with_given_3Qs_hand_should_set_correctly_in_announcements(self):
+		player = Player(name='Player1')     
+		card_strings = ['8s', 'Js', '8h', 'Qh', '10c', 'Qc', 'Ks', 'Qd']     
+		player.set_cards([Card.from_string(i) for i in card_strings]) 
+		player.sort_cards() 
+
+		player.set_announcements()
+			
+		expected = {} 
+
+		self.assertEqual(expected, player.announcements)  
+
 
 if __name__ == '__main__':
 	unittest.main()

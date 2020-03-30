@@ -69,6 +69,9 @@ class Round:
         self.team2.set_valid_announcements_for_round(team_with_max_sequence, self.trumps)
         self.team1.set_points()
         self.team2.set_points()
+        self.print_result()
+        self.team1.null_valid_announcements()
+        self.team2.null_valid_announcements()
 
 
         # save_round_to_txt(parameters)
@@ -115,6 +118,18 @@ class Round:
 
     def set_trumps(self):
         self.trumps = set_type_of_game()
+
+    def print_result(self):
+        print('Team1: ',self.team1.valid_announcements_for_round)
+        print('PLayer1: ', self.team1.player1.announced)
+        print('Player2: ', self.team1.player2.announced)
+        print('Points: ',self.team1.points)
+        print('=================================================')
+        print('Team2: ', self.team2.valid_announcements_for_round)
+        print('PLayer1: ', self.team2.player1.announced)
+        print('Player2: ', self.team2.player2.announced)
+        print('Points: ', self.team2.points)
+
 
 if  __name__ == '__main__':
     p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\

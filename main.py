@@ -26,6 +26,7 @@ def main():
 		round_number = 1
 		create_file_with_headers(team1,team2)
 		is_game_won = False
+		game_number = 1
 		while not is_game_won:
 				game.play_round(round_number)
 				if round_number == 1:
@@ -34,14 +35,17 @@ def main():
 					safe_to_txt(team1,team2)
 				if sum(team1.points)>150 or sum(team2.points)>150 and sum(team1.points) != sum(team2.points):
 					is_game_won = True
-				print('-----------------')
-				print(team1.points)
-				print(team1.valid_announcements_for_round)
-				print('-----------------')
-				print(team2.points)
-				print(team1.valid_announcements_for_round)
+				# r.print_result()
+				print('**********************************')
+				
+				# print('-----------------')
+				# print(team1.points)
+				# print(team1.valid_announcements_for_round)
+				# print('-----------------')
+				# print(team2.points)
+				# print(team1.valid_announcements_for_round)
 
-				print('-----------------')
+				# print('-----------------')
 
 				round_number +=1
 		safe_to_txt(team1,team2,last_round = True)
@@ -52,6 +56,14 @@ def main():
 			game.team2_wins +=1
 			game.last_winner = 'team2'
 
+		game.team1.points = []
+		game.team2.points = []
+
+		# game.set_dict(game_number)
+		game_number += 1
+		print('-------------------------------NEW GAME----------------------------------------')
+
+		# game.safe_to_txt()
 		display_game_points(game.team1_wins,game.team2_wins)
 
 if __name__ == '__main__':

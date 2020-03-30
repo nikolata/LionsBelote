@@ -77,8 +77,8 @@ class Player:
 				is_carre = True
 				pos = Card(el.value, 's').get_position()
 				if pos not in BELOTE_7S_AND_8S_POSITIONS:
-					for i in range(1,4):
-						card_to_check = Card.from_string(BELOTE_ALL_CARDS[pos+8])
+					for i in range(0,4):
+						card_to_check = Card.from_string(BELOTE_ALL_CARDS[pos])
 						if card_to_check not in self.cards:
 							is_carre = False
 							break
@@ -183,6 +183,15 @@ class Player:
 			"points": self.points
 		}
 		return self.dict
+
+	def null_announced_and_points(self):
+		self.announcements = {}
+		self.announced = {BELOTE_BELOTE_STRING : [],
+						  BELOTE_TIERCE_STRING : [],
+						  BELOTE_QUARTE_STRING : [], 
+						  BELOTE_QUINTA_STRING : [],
+						  BELOTE_CARRE_STRING : []}
+		self.points = 0
 
 if __name__ == '__main__':
 	pl = Player(name='name')
