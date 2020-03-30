@@ -10,17 +10,19 @@ def main():
 
 	team1_players=input(team1_name + ' players: ').split(',')
 	team2_players=input(team2_name + ' players: ').split(',')
-	
+	if len(team1_players)!=2 or len(team2_players)!=2:
+		raise ValueError
+
 	p1 = Player(name = team1_players[0].replace(' ',''))
 	p3 = Player(name = team1_players[1].replace(' ',''))
 
 	p2 = Player(name = team2_players[0].replace(' ',''))
 	p4 = Player(name = team2_players[1].replace(' ',''))
 
-	team1 = Team('Mashinite',p1,p3)
-	team2 = Team('Slabacite',p2,p4)
+	team1 = Team(team1_name,p1,p3)
+	team2 = Team(team2_name,p2,p4)
 #test
-
+	
 	game = Game(team1,team2)
 	with open('results.txt','w') as file:
 		pass
@@ -57,7 +59,6 @@ def main():
 		print('-------------------------------NEW GAME----------------------------------------')
 		display_game_points(game.team1_wins,game.team2_wins)
 
-		
 		game.safe_to_json()
 
 
