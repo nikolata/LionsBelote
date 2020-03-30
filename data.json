@@ -1,0 +1,394 @@
+{
+    "game 1": {
+        "round 1": {
+            "Mashinite": {
+                "n": {
+                    "cards": [
+                        "10s",
+                        "Kd",
+                        "7h",
+                        "8h",
+                        "Jh",
+                        "Ah",
+                        "8c",
+                        "Ac"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [
+                            "Jd",
+                            "Jd",
+                            "Jd"
+                        ],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 150
+                },
+                "t": {
+                    "cards": [
+                        "9s",
+                        "As",
+                        "Jd",
+                        "Qd",
+                        "Ad",
+                        "7c",
+                        "9c",
+                        "Jc"
+                    ],
+                    "announcements": {
+                        "belote": [
+                            "h"
+                        ],
+                        "tierce": [
+                            "10h",
+                            "10h",
+                            "10h"
+                        ],
+                        "quarte": [
+                            "Ah",
+                            "Ah"
+                        ],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 210
+                }
+            },
+            "Slabacite": {
+                "m": {
+                    "cards": [
+                        "8s",
+                        "Qs",
+                        "Ks",
+                        "9d",
+                        "Qh",
+                        "10c",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": {
+                        "belote": [
+                            "s",
+                            "c"
+                        ],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 40
+                },
+                "i": {
+                    "cards": [
+                        "7s",
+                        "Js",
+                        "7d",
+                        "8d",
+                        "10d",
+                        "9h",
+                        "10h",
+                        "Kh"
+                    ],
+                    "announcements": {
+                        "belote": [
+                            "c"
+                        ],
+                        "tierce": [
+                            "Ah",
+                            "Ah"
+                        ],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 80
+                }
+            },
+            "trumps": "at"
+        },
+        "round 2": {
+            "Mashinite": {
+                "n": {
+                    "cards": [
+                        "10s",
+                        "Ks",
+                        "7d",
+                        "Ad",
+                        "7c",
+                        "9c",
+                        "Qc",
+                        "Ac"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 0
+                },
+                "t": {
+                    "cards": [
+                        "Js",
+                        "Qs",
+                        "As",
+                        "8d",
+                        "10d",
+                        "10h",
+                        "Qh",
+                        "Kh"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 0
+                }
+            },
+            "Slabacite": {
+                "m": {
+                    "cards": [
+                        "7s",
+                        "8s",
+                        "9d",
+                        "Jd",
+                        "8h",
+                        "9h",
+                        "Jh",
+                        "Ah"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 0
+                },
+                "i": {
+                    "cards": [
+                        "9s",
+                        "Qd",
+                        "Kd",
+                        "7h",
+                        "8c",
+                        "10c",
+                        "Jc",
+                        "Kc"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [
+                            "Ah",
+                            "Ah"
+                        ],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 60
+                }
+            },
+            "trumps": "d"
+        },
+        "round 3": {
+            "Mashinite": {
+                "n": {
+                    "cards": [
+                        "As",
+                        "8d",
+                        "9d",
+                        "10d",
+                        "Jd",
+                        "8h",
+                        "8c",
+                        "Qc"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [
+                            "Jd"
+                        ],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 50
+                },
+                "t": {
+                    "cards": [
+                        "7s",
+                        "9s",
+                        "10s",
+                        "9h",
+                        "Jh",
+                        "9c",
+                        "Kc",
+                        "Ac"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [
+                            "10h"
+                        ],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 30
+                }
+            },
+            "Slabacite": {
+                "m": {
+                    "cards": [
+                        "8s",
+                        "Js",
+                        "Qs",
+                        "Ks",
+                        "7d",
+                        "7h",
+                        "Qh",
+                        "Jc"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 0
+                },
+                "i": {
+                    "cards": [
+                        "Qd",
+                        "Kd",
+                        "Ad",
+                        "10h",
+                        "Kh",
+                        "Ah",
+                        "7c",
+                        "10c"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [
+                            "Ah",
+                            "Ah"
+                        ],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 60
+                }
+            },
+            "trumps": "d"
+        },
+        "round 4": {
+            "Mashinite": {
+                "n": {
+                    "cards": [
+                        "8s",
+                        "9s",
+                        "Js",
+                        "Ks",
+                        "7d",
+                        "10h",
+                        "8c",
+                        "10c"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [
+                            "Jd",
+                            "Jd"
+                        ],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 100
+                },
+                "t": {
+                    "cards": [
+                        "8d",
+                        "Jd",
+                        "9h",
+                        "Jh",
+                        "Qh",
+                        "Kh",
+                        "Ah",
+                        "Ac"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [
+                            "10h",
+                            "10h"
+                        ],
+                        "quarte": [
+                            "Ah"
+                        ],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 110
+                }
+            },
+            "Slabacite": {
+                "m": {
+                    "cards": [
+                        "10s",
+                        "Qs",
+                        "As",
+                        "10d",
+                        "Kd",
+                        "7h",
+                        "9c",
+                        "Jc"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 0
+                },
+                "i": {
+                    "cards": [
+                        "7s",
+                        "9d",
+                        "Qd",
+                        "Ad",
+                        "8h",
+                        "7c",
+                        "Qc",
+                        "Kc"
+                    ],
+                    "announcements": {
+                        "belote": [],
+                        "tierce": [
+                            "Ah",
+                            "Ah"
+                        ],
+                        "quarte": [],
+                        "quinta": [],
+                        "carre": []
+                    },
+                    "points": 60
+                }
+            },
+            "trumps": "c"
+        }
+    }
+}

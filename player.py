@@ -177,9 +177,32 @@ class Player:
 		self.points = belote_pts + tierce_pts + quarte_pts + quinta_pts + carre_pts
 	
 	def set_dict(self):
+		cards = []
+		for el in self.cards:
+			cards.append(str(el.value)+str(el.color))
+		belots = []
+		for el in self.announced[BELOTE_BELOTE_STRING]:
+			belots.append(el)
+		tierces = []
+		for el in self.announced[BELOTE_TIERCE_STRING]:
+			tierces.append(str(el.value)+str(el.color))
+		quartes = []
+		for el in self.announced[BELOTE_QUARTE_STRING]:
+			quartes.append(str(el.value)+str(el.color))
+		quintas = []
+		for el in self.announced[BELOTE_QUINTA_STRING]:
+			quintas.append(str(el.value)+str(el.color))
+		carres = []
+		for el in self.announced[BELOTE_CARRE_STRING]:
+			carres.append(str(el.value)+str(el.color))
+		announced = {BELOTE_BELOTE_STRING : belots,
+						  BELOTE_TIERCE_STRING : tierces,
+						  BELOTE_QUARTE_STRING : quartes , 
+						  BELOTE_QUINTA_STRING : quintas,
+						  BELOTE_CARRE_STRING : carres}
 		self.dict = {
-			"cards": self.cards,
-			"announcements": self.announced,
+			"cards": cards,
+			"announcements": announced,
 			"points": self.points
 		}
 		return self.dict

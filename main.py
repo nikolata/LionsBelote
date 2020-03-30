@@ -26,6 +26,7 @@ def main():
 		round_number = 1
 		create_file_with_headers(team1,team2)
 		is_game_won = False
+		game_number = 1
 		while not is_game_won:
 				game.play_round(round_number)
 				if round_number == 1:
@@ -51,7 +52,10 @@ def main():
 		elif team1.points<team2.points:
 			game.team2_wins +=1
 			game.last_winner = 'team2'
+		game.set_dict(game_number)
+		game_number +=1
 
+		game.safe_to_json()
 		display_game_points(game.team1_wins,game.team2_wins)
 
 if __name__ == '__main__':
