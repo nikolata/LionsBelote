@@ -6,9 +6,14 @@ class Player:
 		assert type(name) == str, 'TypeError'
 		self.name = name
 		self.cards = []
-		self.announced = []
+		self.announced = {BELOTE_BELOTE_STRING : [],
+						  BELOTE_TIERCE_STRING : [],
+						  BELOTE_QUARTE_STRING : [], 
+						  BELOTE_QUINTA_STRING : [],
+						  BELOTE_CARRE_STRING : []}
 		self.points = 0
 		self.announcements = {}
+		self.biggest_sequence = None
 
 	def __repr__(self):
 		return self.name
@@ -144,23 +149,33 @@ class Player:
 		for announcement in self.announcements:
 			if announcement != BELOTE_BELOTE_STRING:
 				self.announcements[announcement] = sorted(self.announcements[announcement], key=lambda c:Player.modify_card_value(c), reverse = True)		
-		for el in self.announcements:
-			if el != BELOTE_BELOTE_STRING:
-				self.announcements[el] = sorted(self.announcements[el], key=lambda c:Player.modify_card_value(c), reverse = True)
 
+	def find_biggest_sequence(self):
+		if BELOTE_QUINTA_STRING in self.announcements:
+			card = self.announcements[BELOTE_QUINTA_STRING][0]
+			return (card.value, 5)
+		elif BELOTE_QUARTE_STRING in self.announcements:
+			card = self.announcements[BELOTE_QUARTE_STRING][0]
+			return (card.value, 4)
+		elif BELOTE_TIERCE_STRING in self.announcements:
+			card = self.announcements[BELOTE_TIERCE_STRING][0]
+			return (card.value, 3)
+		return ('7', 0)
 
-	def get_max_tierce(self):
-		if BELOTE_TIERCE_STRING in self.announcements:
-			self.highest_tierce = max(self.announcements[BELOTE_TIERCE_STRING])
-		else:
-			self.highest_tierce = 0
+	def play_round(self, cards):
+		self.set_cards(cards)
+		self.sort_cards()
+		self.set_announcements()
+		self.biggest_sequence = self.find_biggest_sequence()
 
-
-	def erase_tierce_announcements(self):
-		if BELOTE_TIERCE_STRING in self.announcements:
-			del self.announcements[BELOTE_TIERCE_STRING]
-
-
+	def set_points(self):
+		belote_pts = 20*len(self.announced[BELOTE_BELOTE_STRING]) 
+		tierce_pts = 30*len(self.announced[BELOTE_TIERCE_STRING])
+		quarte_pts = 50*len(self.announced[BELOTE_QUARTE_STRING]) 
+		quinta_pts = 100*len(self.announced[BELOTE_QUINTA_STRING]) 
+		carre_pts = 100*len(self.announced[BELOTE_CARRE_STRING])
+		self.points = belote_pts + tierce_pts + quarte_pts + quinta_pts + carre_pts
+	
 	def set_dict(self):
 		self.dict = {
 			"cards": self.cards,
@@ -168,4 +183,15 @@ class Player:
 			"points": self.points
 		}
 		return self.dict
+
+if __name__ == '__main__':
+	pl = Player(name='name')
+	card_strings = ['10h', 'Qc', 'Ah', 'Ac', 'Jh', 'Kh', 'Kc', 'Qh']
+	cards = [Card.from_string(i) for i in card_strings]
+	pl.play_round(cards)
+	print(pl.biggest_sequence)
+
+
+	
+
 		

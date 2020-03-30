@@ -89,30 +89,32 @@ class TestRound(unittest.TestCase):
     #     self.assertEqual(len(p3.cards), 8)
     #     self.assertEqual(len(p4.cards), 8)
 
-
-    def test_give_cards_with_no_trumps_should_not_set_announcements(self):
-        p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
-         Player(name='ime3'), Player(name='ime4')
-        t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(1, t1, t2)
-        r.trumps = 'nt'
-
-        r.give_cards()
-
-        self.assertEqual(len(p1.cards), 0)
-        self.assertEqual(len(p2.cards), 0)
-        self.assertEqual(len(p3.cards), 0)
-        self.assertEqual(len(p4.cards), 0)
+    def test_give_cards_with_given_cards
 
 
-    def test_iterate_round(self):
-        p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
-         Player(name='ime3'), Player(name='ime4')
-        t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
-        r = Round(1, t1, t2)
-        r.trumps = 'nt'
+    # def test_give_cards_with_no_trumps_should_not_set_announcements(self):
+    #     p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
+    #      Player(name='ime3'), Player(name='ime4')
+    #     t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
+    #     r = Round(1, t1, t2)
+    #     r.trumps = 'nt'
 
-        r.play()
+    #     r.give_cards()
+
+    #     self.assertEqual(len(p1.cards), 0)
+    #     self.assertEqual(len(p2.cards), 0)
+    #     self.assertEqual(len(p3.cards), 0)
+    #     self.assertEqual(len(p4.cards), 0)
+
+
+    # def test_iterate_round(self):
+    #     p1, p2, p3, p4 = Player(name='ime1'), Player(name='ime2'),\
+    #      Player(name='ime3'), Player(name='ime4')
+    #     t1, t2 = Team('prqkor1', p1, p3), Team('prqkor2', p2, p4)
+    #     r = Round(1, t1, t2)
+    #     r.trumps = 'nt'
+
+    #     r.play()
 
         
 
