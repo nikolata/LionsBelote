@@ -19,7 +19,7 @@ def main():
 
 	team1 = Team('Mashinite',p1,p3)
 	team2 = Team('Slabacite',p2,p4)
-
+#test
 	game = Game(team1,team2)
 	while game.team1_wins !=2 and game.team2_wins!=2:
 		round_number = 1
