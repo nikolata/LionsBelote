@@ -38,14 +38,6 @@ def main():
 				# r.print_result()
 				print('**********************************')
 				
-				# print('-----------------')
-				# print(team1.points)
-				# print(team1.valid_announcements_for_round)
-				# print('-----------------')
-				# print(team2.points)
-				# print(team1.valid_announcements_for_round)
-
-				# print('-----------------')
 
 				round_number +=1
 		safe_to_txt(team1,team2,last_round = True)
@@ -55,6 +47,9 @@ def main():
 		elif team1.points<team2.points:
 			game.team2_wins +=1
 			game.last_winner = 'team2'
+		game.set_dict(game_number)
+		game_number +=1
+
 
 		game.team1.points = []
 		game.team2.points = []
@@ -64,6 +59,9 @@ def main():
 		print('-------------------------------NEW GAME----------------------------------------')
 
 		# game.safe_to_txt()
+
+		game.safe_to_json()
+
 		display_game_points(game.team1_wins,game.team2_wins)
 
 if __name__ == '__main__':
